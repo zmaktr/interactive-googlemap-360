@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4b8082;
+}
+h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Noto Serif Display', serif;
+    text-align: center;
+    color: #bdb173;
+}
+#map {
+    height: 80vh;;
+}
