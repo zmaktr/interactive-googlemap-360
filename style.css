@@ -19,3 +19,12 @@ h1 {
 #map {
     height: 80vh;;
 }
+
+#map-canvas {
+    background-color: #000;
+    height: 10vh;
+    width: 10vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    z-index: 1;
+}

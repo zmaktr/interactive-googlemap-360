@@ -364,9 +364,44 @@ const mapStyle = [
   }
 ]
 
+function CenterControl(controlDiv, map) {
+  // Set CSS for the control border.
+  const controlUI = document.createElement("div");
+
+  controlUI.style.backgroundColor = "#123b3c";
+  controlUI.style.border = "3px solid #c7bc84";
+  controlUI.style.marginLeft = '10vh';
+  controlUI.style.marginTop = "3vh";
+  controlUI.style.height = '70vh';
+  controlUI.style.width = '30vh';
+  controlUI.style.borderRadius = "3px";
+  controlUI.style.boxShadow = "0 2px 6px rgba(0,0,0,.3)";
+  controlUI.style.cursor = "pointer";
+  controlUI.style.textAlign = "center";
+  controlUI.style.opacity = '0.8'
+  controlUI.title = "Map Canvas";
+  controlDiv.appendChild(controlUI);
+
+  // Set CSS for the control interior.
+  const controlText = document.createElement("div");
+
+  controlText.style.color = "rgb(25,25,25)";
+  controlText.style.fontFamily = "Roboto,Arial,sans-serif";
+  controlText.style.fontSize = "16px";
+  controlText.style.lineHeight = "38px";
+  controlText.style.paddingLeft = "5px";
+  controlText.style.paddingRight = "5px";
+  controlText.innerHTML = "Center Map";
+  controlUI.appendChild(controlText);
+  // Setup the click event listeners: simply set the map to Chicago.
+  controlUI.addEventListener("click", () => {
+    map.setCenter(chicago);
+  });
+}
+
 function initMap() {
-  // Create the map.
-  const map = new google.maps.Map(document.getElementById('map'), {
+  // Map options.
+  const myOptions = {
     zoom: 7,
     center: {lat: 52.632469, lng: -1.689423},
     styles: mapStyle,
@@ -380,7 +415,19 @@ function initMap() {
     zoomControlOptions: {
       position: google.maps.ControlPosition.RIGHT_TOP,
     },
-  });
+  }
+  // Create the map.
+  const map = new google.maps.Map(document.getElementById('map'), myOptions); 
+
+///////////////////
+  const centerControlDiv = document.createElement("div");
+
+  CenterControl(centerControlDiv, map);
+  map.controls[google.maps.ControlPosition.TOP_LEFT].push(centerControlDiv);
+////////////////////////////////  
+
+
+
 
   // Load the stores GeoJSON onto the map.
   map.data.loadGeoJson('stores.json', {idPropertyName: 'storeid'});
@@ -395,7 +442,7 @@ function initMap() {
     };
   });
 
-  const apiKey = 'AIzaSyCUFOiGO_Uhny3lJ5tOiVk6i-9nQCCRHKw';
+  const apiKey = '';
   const infoWindow = new google.maps.InfoWindow();
   // Show the information for a store when its marker is clicked.
   map.data.addListener('click', (event) => {
