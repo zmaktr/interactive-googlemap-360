@@ -492,7 +492,7 @@ function initMap() {
     };
   });
 
-  const apiKey = '';
+  const apiKey = 'YOUR_API_KEY';
   const infoWindow = new google.maps.InfoWindow();
   // Show the information for a store when its marker is clicked.
   map.data.addListener('click', (event) => {
