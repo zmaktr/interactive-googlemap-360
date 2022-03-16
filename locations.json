@@ -1,0 +1,1161 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [49.4390882,
+                    9.0037875
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Rockenauer Straße 180", 
+                "city": "Eberbach", 
+                "phone": " +49 6271 9248-0",
+                "email": "eberbach@curata.de ",
+                "assetid" : "01"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.3943504,
+                    9.0131239
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Ranstädter Straße 10", 
+                "city": "Nidda-Wallernhausen", 
+                "phone": " +49 6043 9661-0",
+                "email": "nidda@curata.de",
+                "assetid" : "02"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.7876661,
+                    8.8323923
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Ringstraße 180", 
+                "city": "Sudwalde", 
+                "phone": "  +49 4247 9301-0",
+                "email": "sudwalde@curata.de",
+                "assetid" : "03"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [49.23695755004883,
+                    9.110697746276855
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Waldstraße 5", 
+                "city": "Bad Rappenau", 
+                "phone": " +49 7264 9142-0",
+                "email": "bad-rappenau@curata.de",
+                "assetid" : "04"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.98799133300781,
+                    9.567113876342773
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Rotenburger Straße 22-24", 
+                "city": "Visselhövede", 
+                "phone": " +49 4262 9562-3",
+                "email": "visselhoevede@curata.de",
+                "assetid" : "05"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [51.20818328857422,
+                    6.762362957000732
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Dianastraße 4", 
+                "city": "Düsseldorf", 
+                "phone": " +49 211 90180-0",
+                "email": "duesseldorf@curata.de",
+                "assetid" : "06"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [47.6562997,
+                    10.0422514
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Ringenberg 1", 
+                "city": "Maierhöfen", 
+                "phone": " +49 8383 798-0",
+                "email": "maierhoefen@curata.de",
+                "assetid" : "07"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [49.66360855102539,
+                    10.040125846862793
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Fuchsenmühle 1", 
+                "city": "Ochsenfurt", 
+                "phone": " +49 9331 901-0",
+                "email": "ochsenfurt@curata.de",
+                "assetid" : "08"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.0965461730957,
+                    8.60240650177002
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Lärchenstraße 46", 
+                "city": "Frankfurt/ Main", 
+                "phone": " +49 69 380355-0",
+                "email": "frankfurt@curata.de",
+                "assetid" : "09"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.2998046875,
+                    10.47092342376709
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Martin-Reinhard-Straße 30", 
+                "city": "Bad Königshofen", 
+                "phone": " +49 9761 3950-0",
+                "email": "bad-koenigshofen@curata.de",
+                "assetid" : "10"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.2027587890625,
+                    8.786863327026367
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Wilhelmsstraße 35", 
+                "city": "Bad Oyenhausen", 
+                "phone": " +49 5731 3035 - 0",
+                "email": "bad-oyenhausen@curata.de",
+                "assetid" : "11"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [47.843441009521484,
+                    11.148595809936523
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Benedikt-Höck-Weg 9", 
+                "city": "Weilheim i. OB", 
+                "phone": " +49 881 90119-0",
+                "email": "verwaltung-weilheim@curata.de",
+                "assetid" : "12"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [51.558692932128906,
+                    6.761401653289795
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Küpperstraße 50", 
+                "city": "Dinslaken", 
+                "phone": " +49 2064 4760-0",
+                "email": "dinslaken@curata.de",
+                "assetid" : "13"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [51.0559251,
+                    13.7201284
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Wachsbleichstraße 3", 
+                "city": "Dresden", 
+                "phone": " +49 351 656184-0",
+                "email": "dresden@curata.de",
+                "assetid" : "14"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [48.8380241394043,
+                    12.959933280944824
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Bachstraße 13-17", 
+                "city": "Deggendorf", 
+                "phone": " +49 30 680700-530",
+                "email": "haus.donautal@curata.de",
+                "assetid" : "15"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.601009368896484,
+                    9.562233924865723
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Pastor-Simon-Weg 3", 
+                "city": "Neustadt am Rübenberge", 
+                "phone": " +49 30 680700-530",
+                "email": "mandelsloh@curata.de",
+                "assetid" : "16"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.2876086,
+                    9.3593272
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Parkstraße 2-4", 
+                "city": "Bad Soden - Salmünster", 
+                "phone": " +49 6056 9121-0",
+                "email": "bad-soden@curata.de",
+                "assetid" : "17"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.345845,
+                    9.0372074
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Sprudelstraße 19", 
+                "city": "Ortenberg - Selters", 
+                "phone": " +49 6046 942-0",
+                "email": "ortenberg@curata.de ",
+                "assetid" : "18"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [49.4741855,
+                    8.4853465
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Viehhofstraße 25-27", 
+                "city": "Mannheim", 
+                "phone": "+49 621 44504 - 0",
+                "email": "mannheim@curata.de",
+                "assetid" : "19"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [51.8760009,
+                    10.5633238
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Herzog-Julius-Str. 93", 
+                "city": "Bad Harzburg", 
+                "phone": " +49 5322 781 - 0",
+                "email": "bad-harzburg@curata.de ",
+                "assetid" : "20"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.9128428,
+                    7.6613945
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Hähner Weg 5", 
+                "city": "Reichshof-Denklingen", 
+                "phone": " +49 02267 8729578",
+                "email": "reichshof-denklingen@curata.de ",
+                "assetid" : "21"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [53.3830332,
+                    11.5882403
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Schloßfreiheit 3", 
+                "city": "Neustadt-Glewe", 
+                "phone": "+49 38757 538-0",
+                "email": "neustadt-glewe@curata.de",
+                "assetid" : "22"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.7917619,
+                    6.5441328
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Binsfelder Burg", 
+                "city": "Nörvenich", 
+                "phone": "+49 2421 707 - 0",
+                "email": "noervenich@curata.de",
+                "assetid" : "23"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.0874128,
+                    8.2601548
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Parkstraße 8-10", 
+                "city": "Wiesbaden", 
+                "phone": " +49 611 9033 - 0",
+                "email": "wiesbaden@curata.de",
+                "assetid" : "24"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.4996038,
+                    13.3288653
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Meinekestraße 14", 
+                "city": "Berlin", 
+                "phone": " +49 30 885761 - 0",
+                "email": "pac@familie-franke.de",
+                "assetid" : "25"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.4602743,
+                    13.2749489
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Clayallee 54-56", 
+                "city": "Berlin", 
+                "phone": " +49 30 841891 - 0",
+                "email": "rd@familie-franke.de",
+                "assetid" : "26"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.4239219,
+                    13.3359917
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Dessauerstraße 1", 
+                "city": "Berlin", 
+                "phone": " +49 30 77302 - 0",
+                "email": "sw@familie-franke.de",
+                "assetid" : "27"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [53.5088315,
+                    12.3460191
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Lindenallee 36", 
+                "city": "Alt Schwerin", 
+                "phone": "+49 39932 489 - 11",
+                "email": "alt-schwerin@curata.de",
+                "assetid" : "28"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [53.4703498,
+                    12.4311939
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Kloster 44", 
+                "city": "Malchow", 
+                "phone": "+49 39932 867 - 0",
+                "email": "malchow@curata.de  ",
+                "assetid" : "29"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.8618707,
+                    12.4331019
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Prinz-von-Homburg-Str. 37", 
+                "city": "Neustadt", 
+                "phone": "+49 33970 516 - 0",
+                "email": "neustadt-dosse@curata.de",
+                "assetid" : "30"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [53.4559467,
+                    12.2570207
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Vogelsang 8", 
+                "city": "Plau am See", 
+                "phone": "+49 38735 495 - 0",
+                "email": "plau-am-see@curata.de ",
+                "assetid" : "31"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [51.6091831,
+                    10.6794492
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Am Haidberg 1", 
+                "city": "Ellrich OT Sülzhayn", 
+                "phone": "+49 36332 8 - 0",
+                "email": "suelzhayn@curata.de ",
+                "assetid" : "32"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [53.8866016,
+                    10.7796639
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "Karlsruher Straße 80", 
+                "city": "Lübeck", 
+                "phone": "+49 451 29036-0",
+                "email": "luebeck@curata.de",
+                "assetid" : "33"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.2244359,
+                    13.7671142
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Curata",
+                "address": "An der Dahmebrücke 2", 
+                "city": "Heidesee", 
+                "phone": "",
+                "email": "heidesee@curata.de",
+                "assetid" : "34"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [48.1899681,
+                    16.356721
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Margaretenstraße 92", 
+                "city": "Vienna", 
+                "phone": "+43 1 546 860",
+                "email": "info.vienna@pentahotels.com",
+                "assetid" : "35"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.8847537,
+                    4.4443456
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Berkenlaan 5", 
+                "city": "Diegem", 
+                "phone": "+32 27253380",
+                "email": "info.brussels.airport@pentahotels.com",
+                "assetid" : "36"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.8332304,
+                    4.3571772
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Chaussée de Charleroi", 
+                "city": "Brussels", 
+                "phone": "+32 25336666",
+                "email": "info.brussels.center@pentahotels.com",
+                "assetid" : "37"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.877258,
+                    4.703847
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Alfons Semtspelin 7", 
+                "city": "Leuven", 
+                "phone": "+32 16317600",
+                "email": "info.leuven@pentahotels.com",
+                "assetid" : "38"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.6429273,
+                    5.5654273
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "100, boulevard de la Sauveniere", 
+                "city": "Lìege", 
+                "phone": "+32 42217711",
+                "email": "info.liege@pentahotels.com",
+                "assetid" : "39"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.1025237,
+                    14.4767959
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Sokolovská 112", 
+                "city": "Prague", 
+                "phone": "+42 222 332 800",
+                "email": "info.prague@pentahotels.com",
+                "assetid" : "40"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [48.998802,
+                    2.5161747
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "12 Allée du Verger", 
+                "city": "Roissy-en-France", 
+                "phone": "+33 1 3018 2100",
+                "email": "info.paris.cdg@pentahotels.com",
+                "assetid" : "41"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.4437522,
+                    13.569616
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Grünauer Straße 1", 
+                "city": "Berlin", 
+                "phone": "+49 30 654790",
+                "email": "info.koepenick@pentahotels.com",
+                "assetid" : "42"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.2598345,
+                    10.5270663
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Auguststraße 6-8", 
+                "city": "Braunschweig", 
+                "phone": "+49 531 48140",
+                "email": "info.braunschweig@pentahotels.com",
+                "assetid" : "43"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.9897881,
+                    10.2692301
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Weinbergstraße 5", 
+                "city": "Eisenach", 
+                "phone": "+49 3691 8150",
+                "email": "info.eisenach@pentahotels.com",
+                "assetid" : "44"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [51.3112773,
+                    9.4454617
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Bertha-von-Suttner-Straße 15", 
+                "city": "Kassel", 
+                "phone": "+49 561 93390",
+                "email": "info.kassel@pentahotels.com",
+                "assetid" : "45"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [51.3409264,
+                    12.3869034
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Großer Brockhaus 3", 
+                "city": "Leipzig", 
+                "phone": "+49 (0)341 12920",
+                "email": "info.leipzig@pentahotels.com",
+                "assetid" : "46"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [54.0877015,
+                    12.1355251
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Schwaansche Straße 6", 
+                "city": "Rostock", 
+                "phone": "+49 381 49700",
+                "email": "info.rostock@pentahotels.com",
+                "assetid" : "47"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.0659185,
+                    8.2720454
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Abraham-Lincoln-Straße 17", 
+                "city": "Wiesbaden", 
+                "phone": "+49 611 797 700",
+                "email": "info.wiesbaden@pentahotels.com",
+                "assetid" : "48"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.473782,
+                    -1.902399
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Ernest Street/Holloway Head", 
+                "city": "Birmingham", 
+                "phone": "+44 1216228800",
+                "email": "info.birmingham@pentahotels.com",
+                "assetid" : "49"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.9136843,
+                    -1.4536475
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Locomotive Way / Pride Park", 
+                "city": "Derby", 
+                "phone": "+44 1332376420",
+                "email": "info.derby@pentahotels.com",
+                "assetid" : "50"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [57.480002,
+                    -4.226787
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "63 Academy Street", 
+                "city": "Inverness", 
+                "phone": "+44 1463228850",
+                "email": "info.inverness@pentahotels.com",
+                "assetid" : "51"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.052003,
+                    1.140473
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Ranelagh Road", 
+                "city": "Ipswich", 
+                "phone": "+44 1473694600",
+                "email": "info.ipswich@pentahotels.com",
+                "assetid" : "52"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [51.454805,
+                    -0.978174
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Oxford Road", 
+                "city": "Reading", 
+                "phone": "+44 1189586222",
+                "email": "info.reading@pentahotels.com",
+                "assetid" : "53"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [53.422854,
+                    -2.520806
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "Aston Avenue Birchwood Business Park", 
+                "city": "Warrington", 
+                "phone": "+44 1925847050",
+                "email": "info.warrington@pentahotels.com",
+                "assetid" : "54"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [55.751975,
+                    37.593048
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "15 Novy Arbat Avenue", 
+                "city": "Moscow", 
+                "phone": "+7 495 7874433",
+                "email": "info.moscow@pentahotels.com",
+                "assetid" : "55"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [39.93264,
+                    116.41834
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "3-18 Chongwenmen Wai Street", 
+                "city": "Beijing - Dongcheng District", 
+                "phone": "+86 1067081188",
+                "email": "beijing@pentahotelsasia.com",
+                "assetid" : "56"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [30.66667,
+                    104.06667
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "461 Jiqing 1st Road", 
+                "city": "Chengdu - High Tech Zone", 
+                "phone": "+86 2862630999",
+                "email": "chengducc@pentahotels.cn",
+                "assetid" : "57"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [22.3372471,
+                    114.1998532
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "19 Luk Hop Street - San Po Kong Kowloon", 
+                "city": "Hong Kong", 
+                "phone": "+852 31128222",
+                "email": "kowloon@pentahotelsasia.com",
+                "assetid" : "58"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [22.3956601,
+                    113.971968
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Penta Hotels",
+                "address": "6 Tsun Wen Road - Tuen Mun New Territories", 
+                "city": "Hong Kong", 
+                "phone": "+852 3112 1138",
+                "email": "tuenmun@pentahotelsasia.com",
+                "assetid" : "59"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.4151036,
+                    13.4801791
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Tibado Care",
+                "address": "Lauchstädter Weg 23", 
+                "city": "Berlin", 
+                "phone": "+49 30 66065466",
+                "email": "andreas.auer@curata-eichler.de",
+                "assetid" : "60"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.6063874,
+                    12.8665155
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Tibado Care",
+                "address": "Schützenstraße 36", 
+                "city": "Nauen", 
+                "phone": "+49 3321 4519 - 10",
+                "email": "info@curata.de",
+                "assetid" : "61"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [51.26045,
+                    6.79914
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Tibado Care",
+                "address": "Opitzstrasse 10a", 
+                "city": "Düsseldorf", 
+                "phone": "+49 30 660 654 66",
+                "email": "muenchen.west@squareville.de",
+                "assetid" : "62"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [48.1393784,
+                    11.4089721
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Squareville",
+                "address": "Clarita-Bernhard-Straße 16", 
+                "city": "München", 
+                "phone": "+49 89 212310 370",
+                "email": "info@staytoo.de",
+                "assetid" : "63"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [49.4719971,
+                    11.1024786
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Staytoo",
+                "address": "Äußere Bayreuther Str. 113", 
+                "city": "Nürnberg", 
+                "phone": "+49 151 1455 6817",
+                "email": "info@staytoo.de",
+                "assetid" : "64"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.71445083618164,
+                    7.039649963378906
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Staytoo",
+                "address": "Rochusstraße 65", 
+                "city": "Bonn", 
+                "phone": "+49 151 1455 7090",
+                "email": "info@staytoo.de",
+                "assetid" : "65"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [49.42596435546875,
+                    7.749464988708496
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Staytoo",
+                "address": "Trippstadter Straße 115", 
+                "city": "Kaiserslautern", 
+                "phone": " +49 6271 9248-0",
+                "email": "info@staytoo.de",
+                "assetid" : "66"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [51.3125578,
+                    12.3727846
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Staytoo",
+                "address": "Karl-Liebknecht-Straße 144", 
+                "city": "Leipzig", 
+                "phone": " +49 6271 9248-0",
+                "email": "info@staytoo.de",
+                "assetid" : "67"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [52.485023498535156,
+                    13.379217147827148
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "Staytoo",
+                "address": "Dudenstraße 80", 
+                "city": "Berlin", 
+                "phone": " +49 6271 9248-0",
+                "email": "info@staytoo.de",
+                "assetid" : "68"
+            }
+        }
+    ]
+}

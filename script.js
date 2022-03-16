@@ -365,39 +365,88 @@ const mapStyle = [
 ]
 
 function CenterControl(controlDiv, map) {
-  // Set CSS for the control border.
-  const controlUI = document.createElement("div");
 
-  controlUI.style.backgroundColor = "#123b3c";
-  controlUI.style.border = "3px solid #c7bc84";
-  controlUI.style.marginLeft = '10vh';
-  controlUI.style.marginTop = "3vh";
-  controlUI.style.height = '70vh';
-  controlUI.style.width = '30vh';
+  controlDiv.style.marginLeft = '10vh';
+  controlDiv.style.marginTop = "5vh";
+  
+  const controlUI = document.createElement("div");
+  controlUI.style.backgroundColor = "#133a3b";
+  controlUI.style.border = "1px solid #c7bc84";
+  controlUI.style.width = '33vh';
   controlUI.style.borderRadius = "3px";
   controlUI.style.boxShadow = "0 2px 6px rgba(0,0,0,.3)";
-  controlUI.style.cursor = "pointer";
   controlUI.style.textAlign = "center";
-  controlUI.style.opacity = '0.8'
+  controlUI.style.opacity = '0.94'
   controlUI.title = "Map Canvas";
   controlDiv.appendChild(controlUI);
 
-  // Set CSS for the control interior.
-  const controlText = document.createElement("div");
+  const canvasHeader = document.createElement("div");
+  canvasHeader.style.backgroundColor = "#123738";
+  canvasHeader.style.color = "#fff";
+  canvasHeader.style.fontSize = "32px";
+  canvasHeader.innerHTML = "<div align='center'><img src='img/360 logo.png' width='190' height='140'> </div>";
+  controlUI.appendChild(canvasHeader);
 
-  controlText.style.color = "rgb(25,25,25)";
-  controlText.style.fontFamily = "Roboto,Arial,sans-serif";
-  controlText.style.fontSize = "16px";
-  controlText.style.lineHeight = "38px";
-  controlText.style.paddingLeft = "5px";
-  controlText.style.paddingRight = "5px";
-  controlText.innerHTML = "Center Map";
-  controlUI.appendChild(controlText);
-  // Setup the click event listeners: simply set the map to Chicago.
-  controlUI.addEventListener("click", () => {
-    map.setCenter(chicago);
-  });
-}
+  const buttonCurata = document.createElement("div");
+  buttonCurata.style.backgroundColor = "#1f4e4f";
+  buttonCurata.style.color = "#c9dcdd";
+  buttonCurata.style.fontSize = "32px";
+  buttonCurata.style.height = "5vh";
+  buttonCurata.style.cursor = "pointer";
+  buttonCurata.title = "Curata";
+  buttonCurata.innerHTML = "<div align='left' onClick='handelRequests('\rainfall\')'><img  width='' height=''> Curata </div> ";
+  controlUI.appendChild(buttonCurata);
+
+  const buttonStaytoo = document.createElement("div");
+  buttonStaytoo.style.backgroundColor = "#2d6566";
+  buttonStaytoo.style.color = "#c9dcdd";
+  buttonStaytoo.style.fontSize = "32px";
+  buttonStaytoo.style.height = "5vh";
+  buttonStaytoo.style.cursor = "pointer";
+  buttonStaytoo.title = "StayToo";
+  buttonStaytoo.innerHTML = "<div align='left'><img  width='' height=''> StayToo </div> ";
+  controlUI.appendChild(buttonStaytoo);
+  
+  const buttonSquareville = document.createElement("div");
+  buttonSquareville.style.backgroundColor = "#40797a";
+  buttonSquareville.style.color = "#c9dcdd";
+  buttonSquareville.style.fontSize = "32px";
+  buttonSquareville.style.height = "5vh";
+  buttonSquareville.style.cursor = "pointer";
+  buttonSquareville.title = "SquareVille";
+  buttonSquareville.innerHTML = "<div align='left'><img  width='' height=''> SquareVille </div> ";
+  controlUI.appendChild(buttonSquareville);
+
+  const buttonStayurban = document.createElement("div");
+  buttonStayurban.style.backgroundColor = "#589293";
+  buttonStayurban.style.color = "#c9dcdd";
+  buttonStayurban.style.fontSize = "32px";
+  buttonStayurban.style.height = "5vh";
+  buttonStayurban.style.cursor = "pointer";
+  buttonStayurban.title = "Stay Urban";
+  buttonStayurban.innerHTML = "<div align='left'><img  width='' height=''> Stay Urban </div> ";
+  controlUI.appendChild(buttonStayurban);
+
+  const buttonTibadocare = document.createElement("div");
+  buttonTibadocare.style.backgroundColor = "#70a7a8";
+  buttonTibadocare.style.color = "#c9dcdd";
+  buttonTibadocare.style.fontSize = "32px";
+  buttonTibadocare.style.height = "5vh";
+  buttonTibadocare.style.cursor = "pointer";
+  buttonTibadocare.title = "Tibado Care";
+  buttonTibadocare.innerHTML = "<div align='left'><img  width='' height=''> Tibado Care </div> ";
+  controlUI.appendChild(buttonTibadocare);
+  
+  const buttonPentahotels = document.createElement("div");
+  buttonPentahotels.style.backgroundColor = "#89b9ba";
+  buttonPentahotels.style.color = "#c9dcdd";
+  buttonPentahotels.style.fontSize = "32px";
+  buttonPentahotels.style.height = "5vh";
+  buttonPentahotels.style.cursor = "pointer";
+  buttonPentahotels.title = "Penta Hotels";
+  buttonPentahotels.innerHTML = "<div align='left'><img  width='' height=''> Penta Hotels </div> ";
+  controlUI.appendChild(buttonPentahotels);
+};
 
 function initMap() {
   // Map options.
@@ -420,10 +469,11 @@ function initMap() {
   const map = new google.maps.Map(document.getElementById('map'), myOptions); 
 
 ///////////////////
-  const centerControlDiv = document.createElement("div");
 
-  CenterControl(centerControlDiv, map);
-  map.controls[google.maps.ControlPosition.TOP_LEFT].push(centerControlDiv);
+  var controlDiv = document.createElement('div');
+  var mapControlPanel = new CenterControl(controlDiv, map)
+
+  map.controls[google.maps.ControlPosition.TOP_LEFT].push(controlDiv);
 ////////////////////////////////  
 
 
