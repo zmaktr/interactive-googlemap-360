@@ -453,7 +453,7 @@ function initMap() {
   const myOptions = {
     zoom: 7,
     center: {lat: 52.632469, lng: -1.689423},
-    styles: mapStyle,
+    // styles: mapStyle,
     mapTypeControl: false,
     streetViewControl: false,
     fullscreenControl: true,
@@ -480,33 +480,33 @@ function initMap() {
 
 
   // Load the stores GeoJSON onto the map.
-  map.data.loadGeoJson('stores.json', {idPropertyName: 'storeid'});
+  map.data.loadGeoJson('locations.json', {idPropertyName: 'assetid'});
 
   // Define the custom marker icons, using the store's "category".
   map.data.setStyle((feature) => {
     return {
       icon: {
         url: `img/icon_${feature.getProperty('category')}.png`,
-        scaledSize: new google.maps.Size(64, 64),
+        scaledSize: new google.maps.Size(45, 35),
       },
     };
   });
 
-  const apiKey = 'YOUR_API_KEY';
+  const apiKey = 'AIzaSyCUFOiGO_Uhny3lJ5tOiVk6i-9nQCCRHKw';
   const infoWindow = new google.maps.InfoWindow();
   // Show the information for a store when its marker is clicked.
   map.data.addListener('click', (event) => {
     const category = event.feature.getProperty('category');
-    const name = event.feature.getProperty('name');
-    const description = event.feature.getProperty('description');
-    const hours = event.feature.getProperty('hours');
+    const name = event.feature.getProperty('address');
+    const description = event.feature.getProperty('city');
+    const email = event.feature.getProperty('email');
     const phone = event.feature.getProperty('phone');
     const position = event.feature.getGeometry().get();
     const content = `
-    <img style="float:left; width:200px; margin-top:30px" src="img/logo_${category}.png">
+    <img style="float:left; width:200px; margin-top:30px" src="img/icon_${category}.png">
     <div style="margin-left:220px; margin-bottom:20px;">
       <h2>${name}</h2><p>${description}</p>
-      <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
+      <p><b>Open:</b> ${email}<br/><b>Phone:</b> ${phone}</p>
       <p><img src="https://maps.googleapis.com/maps/api/streetview?location=${position.lat()},${position.lng()}&size=350x120&key=${apiKey}"></p>
     </div>
     `;
