@@ -228,8 +228,13 @@ function initMap() {
       },
     };
   });
+<<<<<<< HEAD
   // Construct infowindow from GeoJSON data
   const apiKey = 'AIzaSyCUFOiGO_Uhny3lJ5tOiVk6i-9nQCCRHKw';
+=======
+
+  const apiKey = 'YOUR_API_KEY';
+>>>>>>> 210817a349180e879d9cb64a9b474d77587b39dd
   const infoWindow = new google.maps.InfoWindow();
   // Show the information for a store when its marker is clicked.
   map.data.addListener('click', (event) => {
