@@ -1,459 +1,202 @@
 const mapStyle = [
-  {
-      "featureType": "all",
-      "elementType": "all",
-      "stylers": [
-          {
-              "visibility": "on"
-          }
-      ]
-  },
-  {
-      "featureType": "all",
-      "elementType": "labels",
-      "stylers": [
-          {
-              "visibility": "off"
-          },
-          {
-              "saturation": "-100"
-          }
-      ]
-  },
-  {
-      "featureType": "all",
-      "elementType": "labels.text.fill",
-      "stylers": [
-          {
-              "saturation": 36
-          },
-          {
-              "color": "#000000"
-          },
-          {
-              "lightness": 40
-          },
-          {
-              "visibility": "off"
-          }
-      ]
-  },
-  {
-      "featureType": "all",
-      "elementType": "labels.text.stroke",
-      "stylers": [
-          {
-              "visibility": "off"
-          },
-          {
-              "color": "#000000"
-          },
-          {
-              "lightness": 16
-          }
-      ]
-  },
-  {
-      "featureType": "all",
-      "elementType": "labels.icon",
-      "stylers": [
-          {
-              "visibility": "off"
-          }
-      ]
-  },
-  {
-      "featureType": "administrative",
-      "elementType": "geometry.fill",
-      "stylers": [
-          {
-              "color": "#000000"
-          },
-          {
-              "lightness": 20
-          }
-      ]
-  },
-  {
-      "featureType": "administrative",
-      "elementType": "geometry.stroke",
-      "stylers": [
-          {
-              "color": "#000000"
-          },
-          {
-              "lightness": 17
-          },
-          {
-              "weight": 1.2
-          }
-      ]
-  },
-  {
-      "featureType": "landscape",
-      "elementType": "geometry",
-      "stylers": [
-          {
-              "color": "#000000"
-          },
-          {
-              "lightness": 20
-          }
-      ]
-  },
-  {
-      "featureType": "landscape",
-      "elementType": "geometry.fill",
-      "stylers": [
-          {
-              "color": "#4d6059"
-          }
-      ]
-  },
-  {
-      "featureType": "landscape",
-      "elementType": "geometry.stroke",
-      "stylers": [
-          {
-              "color": "#4d6059"
-          }
-      ]
-  },
-  {
-      "featureType": "landscape.natural",
-      "elementType": "geometry.fill",
-      "stylers": [
-          {
-              "color": "#4d6059"
-          }
-      ]
-  },
-  {
-      "featureType": "poi",
-      "elementType": "geometry",
-      "stylers": [
-          {
-              "lightness": 21
-          }
-      ]
-  },
-  {
-      "featureType": "poi",
-      "elementType": "geometry.fill",
-      "stylers": [
-          {
-              "color": "#4d6059"
-          }
-      ]
-  },
-  {
-      "featureType": "poi",
-      "elementType": "geometry.stroke",
-      "stylers": [
-          {
-              "color": "#4d6059"
-          }
-      ]
-  },
-  {
-      "featureType": "road",
-      "elementType": "geometry",
-      "stylers": [
-          {
-              "visibility": "on"
-          },
-          {
-              "color": "#7f8d89"
-          }
-      ]
-  },
-  {
-      "featureType": "road",
-      "elementType": "geometry.fill",
-      "stylers": [
-          {
-              "color": "#7f8d89"
-          }
-      ]
-  },
-  {
-      "featureType": "road.highway",
-      "elementType": "geometry.fill",
-      "stylers": [
-          {
-              "color": "#7f8d89"
-          },
-          {
-              "lightness": 17
-          }
-      ]
-  },
-  {
-      "featureType": "road.highway",
-      "elementType": "geometry.stroke",
-      "stylers": [
-          {
-              "color": "#7f8d89"
-          },
-          {
-              "lightness": 29
-          },
-          {
-              "weight": 0.2
-          }
-      ]
-  },
-  {
-      "featureType": "road.arterial",
-      "elementType": "geometry",
-      "stylers": [
-          {
-              "color": "#000000"
-          },
-          {
-              "lightness": 18
-          }
-      ]
-  },
-  {
-      "featureType": "road.arterial",
-      "elementType": "geometry.fill",
-      "stylers": [
-          {
-              "color": "#7f8d89"
-          }
-      ]
-  },
-  {
-      "featureType": "road.arterial",
-      "elementType": "geometry.stroke",
-      "stylers": [
-          {
-              "color": "#7f8d89"
-          }
-      ]
-  },
-  {
-      "featureType": "road.local",
-      "elementType": "geometry",
-      "stylers": [
-          {
-              "color": "#000000"
-          },
-          {
-              "lightness": 16
-          }
-      ]
-  },
-  {
-      "featureType": "road.local",
-      "elementType": "geometry.fill",
-      "stylers": [
-          {
-              "color": "#7f8d89"
-          }
-      ]
-  },
-  {
-      "featureType": "road.local",
-      "elementType": "geometry.stroke",
-      "stylers": [
-          {
-              "color": "#7f8d89"
-          }
-      ]
-  },
-  {
-      "featureType": "transit",
-      "elementType": "geometry",
-      "stylers": [
-          {
-              "color": "#000000"
-          },
-          {
-              "lightness": 19
-          }
-      ]
-  },
-  {
-      "featureType": "water",
-      "elementType": "all",
-      "stylers": [
-          {
-              "color": "#2b3638"
-          },
-          {
-              "visibility": "on"
-          }
-      ]
-  },
-  {
-      "featureType": "water",
-      "elementType": "geometry",
-      "stylers": [
-          {
-              "color": "#2b3638"
-          },
-          {
-              "lightness": 17
-          }
-      ]
-  },
-  {
-      "featureType": "water",
-      "elementType": "geometry.fill",
-      "stylers": [
-          {
-              "color": "#24282b"
-          }
-      ]
-  },
-  {
-      "featureType": "water",
-      "elementType": "geometry.stroke",
-      "stylers": [
-          {
-              "color": "#24282b"
-          }
-      ]
-  },
-  {
-      "featureType": "water",
-      "elementType": "labels",
-      "stylers": [
-          {
-              "visibility": "off"
-          }
-      ]
-  },
-  {
-      "featureType": "water",
-      "elementType": "labels.text",
-      "stylers": [
-          {
-              "visibility": "off"
-          }
-      ]
-  },
-  {
-      "featureType": "water",
-      "elementType": "labels.text.fill",
-      "stylers": [
-          {
-              "visibility": "off"
-          }
-      ]
-  },
-  {
-      "featureType": "water",
-      "elementType": "labels.text.stroke",
-      "stylers": [
-          {
-              "visibility": "off"
-          }
-      ]
-  },
-  {
-      "featureType": "water",
-      "elementType": "labels.icon",
-      "stylers": [
-          {
-              "visibility": "off"
-          }
-      ]
-  }
+    {
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#224442"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#d3e7d7"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 45
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#769c7e"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    }
 ]
 
 function CenterControl(controlDiv, map) {
 
-  controlDiv.style.marginLeft = '10vh';
+  controlDiv.style.marginLeft = '5vh';
   controlDiv.style.marginTop = "5vh";
   
   const controlUI = document.createElement("div");
-  controlUI.style.backgroundColor = "#133a3b";
+  controlUI.style.backgroundColor = "#143a3b";
   controlUI.style.border = "1px solid #c7bc84";
   controlUI.style.width = '33vh';
   controlUI.style.borderRadius = "3px";
   controlUI.style.boxShadow = "0 2px 6px rgba(0,0,0,.3)";
   controlUI.style.textAlign = "center";
-  controlUI.style.opacity = '0.94'
+  controlUI.style.opacity = '0.98'
   controlUI.title = "Map Canvas";
   controlDiv.appendChild(controlUI);
 
   const canvasHeader = document.createElement("div");
-  canvasHeader.style.backgroundColor = "#123738";
+  canvasHeader.style.backgroundColor = "#143a3b";
   canvasHeader.style.color = "#fff";
   canvasHeader.style.fontSize = "32px";
   canvasHeader.innerHTML = "<div align='center'><img src='img/360 logo.png' width='190' height='140'> </div>";
   controlUI.appendChild(canvasHeader);
 
   const buttonCurata = document.createElement("div");
-  buttonCurata.style.backgroundColor = "#1f4e4f";
+  buttonCurata.style.backgroundColor = "#1a4444";
   buttonCurata.style.color = "#c9dcdd";
-  buttonCurata.style.fontSize = "32px";
+  buttonCurata.style.fontSize = "25px";
+  buttonCurata.style.paddingLeft='5px';
+  buttonCurata.style.paddingRight='10px';
   buttonCurata.style.height = "5vh";
   buttonCurata.style.cursor = "pointer";
   buttonCurata.title = "Curata";
-  buttonCurata.innerHTML = "<div align='left' onClick='handelRequests('\rainfall\')'><img  width='' height=''> Curata </div> ";
+  buttonCurata.innerHTML = "<div align='left'>  Curata  <span style='float:right'> > </span> </div> ";
   controlUI.appendChild(buttonCurata);
 
   const buttonStaytoo = document.createElement("div");
-  buttonStaytoo.style.backgroundColor = "#2d6566";
+  buttonStaytoo.style.backgroundColor = "#235354";
   buttonStaytoo.style.color = "#c9dcdd";
-  buttonStaytoo.style.fontSize = "32px";
+  buttonStaytoo.style.fontSize = "25px";
+  buttonStaytoo.style.paddingLeft='5px';
+  buttonStaytoo.style.paddingRight='10px';
   buttonStaytoo.style.height = "5vh";
   buttonStaytoo.style.cursor = "pointer";
   buttonStaytoo.title = "StayToo";
-  buttonStaytoo.innerHTML = "<div align='left'><img  width='' height=''> StayToo </div> ";
+  buttonStaytoo.innerHTML = "<div align='left'>  Staytoo  <span style='float:right'> > </span> </div> ";
   controlUI.appendChild(buttonStaytoo);
   
   const buttonSquareville = document.createElement("div");
-  buttonSquareville.style.backgroundColor = "#40797a";
+  buttonSquareville.style.backgroundColor = "#2e6263";
   buttonSquareville.style.color = "#c9dcdd";
-  buttonSquareville.style.fontSize = "32px";
+  buttonSquareville.style.fontSize = "25px";
+  buttonSquareville.style.paddingLeft='5px';
+  buttonSquareville.style.paddingRight='10px';
   buttonSquareville.style.height = "5vh";
   buttonSquareville.style.cursor = "pointer";
   buttonSquareville.title = "SquareVille";
-  buttonSquareville.innerHTML = "<div align='left'><img  width='' height=''> SquareVille </div> ";
+  buttonSquareville.innerHTML = "<div align='left'>  Squareville  <span style='float:right'> > </span> </div> ";
   controlUI.appendChild(buttonSquareville);
 
   const buttonStayurban = document.createElement("div");
-  buttonStayurban.style.backgroundColor = "#589293";
+  buttonStayurban.style.backgroundColor = "#3b7172";
   buttonStayurban.style.color = "#c9dcdd";
-  buttonStayurban.style.fontSize = "32px";
+  buttonStayurban.style.fontSize = "25px";
+  buttonStayurban.style.paddingLeft='5px';
+  buttonStayurban.style.paddingRight='10px';
   buttonStayurban.style.height = "5vh";
   buttonStayurban.style.cursor = "pointer";
   buttonStayurban.title = "Stay Urban";
-  buttonStayurban.innerHTML = "<div align='left'><img  width='' height=''> Stay Urban </div> ";
+  buttonStayurban.innerHTML = "<div align='left'>  Stay Urban  <span style='float:right'> > </span> </div> ";
   controlUI.appendChild(buttonStayurban);
 
   const buttonTibadocare = document.createElement("div");
-  buttonTibadocare.style.backgroundColor = "#70a7a8";
+  buttonTibadocare.style.backgroundColor = "#44797a";
   buttonTibadocare.style.color = "#c9dcdd";
-  buttonTibadocare.style.fontSize = "32px";
+  buttonTibadocare.style.fontSize = "25px";
+  buttonTibadocare.style.paddingLeft='5px';
+  buttonTibadocare.style.paddingRight='10px';
   buttonTibadocare.style.height = "5vh";
   buttonTibadocare.style.cursor = "pointer";
   buttonTibadocare.title = "Tibado Care";
-  buttonTibadocare.innerHTML = "<div align='left'><img  width='' height=''> Tibado Care </div> ";
+  buttonTibadocare.innerHTML = "<div align='left'>  Tibado Care  <span style='float:right'> > </span> </div> ";
   controlUI.appendChild(buttonTibadocare);
   
   const buttonPentahotels = document.createElement("div");
-  buttonPentahotels.style.backgroundColor = "#89b9ba";
+  buttonPentahotels.style.backgroundColor = "#4f8687";
   buttonPentahotels.style.color = "#c9dcdd";
-  buttonPentahotels.style.fontSize = "32px";
+  buttonPentahotels.style.fontSize = "25px";
+  buttonPentahotels.style.paddingLeft='5px';
+  buttonPentahotels.style.paddingRight='10px';
   buttonPentahotels.style.height = "5vh";
   buttonPentahotels.style.cursor = "pointer";
   buttonPentahotels.title = "Penta Hotels";
-  buttonPentahotels.innerHTML = "<div align='left'><img  width='' height=''> Penta Hotels </div> ";
+  buttonPentahotels.innerHTML = "<div align='left'>  Penta Hotels  <span style='float:right'> > </span> </div> ";
   controlUI.appendChild(buttonPentahotels);
 };
 
 function initMap() {
+  
   // Map options.
   const myOptions = {
-    zoom: 7,
-    center: {lat: 52.632469, lng: -1.689423},
-    // styles: mapStyle,
+    zoom: 3,
+    center: {lat: 43.439892724608804, lng: 34.51101884210948},
+    styles: mapStyle,
     mapTypeControl: false,
     streetViewControl: false,
     fullscreenControl: true,
@@ -465,24 +208,18 @@ function initMap() {
       position: google.maps.ControlPosition.RIGHT_TOP,
     },
   }
-  // Create the map.
+  
+  // Map variable.
   const map = new google.maps.Map(document.getElementById('map'), myOptions); 
 
-///////////////////
-
+  // Custom canvas & controls
   var controlDiv = document.createElement('div');
   var mapControlPanel = new CenterControl(controlDiv, map)
-
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(controlDiv);
-////////////////////////////////  
 
-
-
-
-  // Load the stores GeoJSON onto the map.
+  // Load the locations GeoJSON onto the map.
   map.data.loadGeoJson('locations.json', {idPropertyName: 'assetid'});
-
-  // Define the custom marker icons, using the store's "category".
+  // Define the custom marker from GeoJSON data
   map.data.setStyle((feature) => {
     return {
       icon: {
@@ -491,7 +228,7 @@ function initMap() {
       },
     };
   });
-
+  // Construct infowindow from GeoJSON data
   const apiKey = 'AIzaSyCUFOiGO_Uhny3lJ5tOiVk6i-9nQCCRHKw';
   const infoWindow = new google.maps.InfoWindow();
   // Show the information for a store when its marker is clicked.
@@ -510,11 +247,9 @@ function initMap() {
       <p><img src="https://maps.googleapis.com/maps/api/streetview?location=${position.lat()},${position.lng()}&size=350x120&key=${apiKey}"></p>
     </div>
     `;
-
     infoWindow.setContent(content);
     infoWindow.setPosition(position);
     infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
     infoWindow.open(map);
-  
   });
 }
