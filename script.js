@@ -1,3 +1,4 @@
+// Map Style in JSON
 const mapStyle = [
     {
         "featureType": "administrative",
@@ -94,7 +95,7 @@ const mapStyle = [
     }
 ]
 
-
+// Map Canvas Design in JS
 function CenterControl(controlDiv, map) {
 
   controlDiv.style.marginLeft = '5vh';
@@ -191,6 +192,31 @@ function CenterControl(controlDiv, map) {
   controlUI.appendChild(buttonPentahotels);
 };
 
+// Legend Design in JS
+function CenterControlLegend(controlDivLegend, map) {
+
+    controlDivLegend.style.marginLeft = '-4vh';
+    controlDivLegend.style.marginBottom = "5vh";
+    
+    const controlUILegend = document.createElement("div");
+    controlUILegend.style.backgroundColor = "#769c7e";
+    controlUILegend.style.border = "1px solid #c7bc84";
+    controlUILegend.style.width = '33vh';
+    controlUILegend.style.borderRadius = "3px";
+    controlUILegend.style.boxShadow = "0 2px 6px rgba(0,0,0,.3)";
+    controlUILegend.style.textAlign = "center";
+    controlUILegend.style.opacity = '0.98'
+    controlUILegend.title = "Map Canvas";
+    controlDivLegend.appendChild(controlUILegend);
+  
+    const canvasHeaderLegend = document.createElement("div");
+    canvasHeaderLegend.style.backgroundColor = "#769c7e";
+    canvasHeaderLegend.style.color = "#fff";
+    canvasHeaderLegend.style.fontSize = "32px";
+    canvasHeaderLegend.innerHTML = "<div align='center'><img src='img/360 logo.png' width='190' height='140'> </div>";
+    controlUILegend.appendChild(canvasHeaderLegend);
+  };
+
 function initMap() {
   
   // Map options.
@@ -213,26 +239,92 @@ function initMap() {
   // Map variable.
   const map = new google.maps.Map(document.getElementById('map'), myOptions); 
 
-  // Custom canvas & controls
+  // Custom Map canvas & controls
   var controlDiv = document.createElement('div');
   var mapControlPanel = new CenterControl(controlDiv, map)
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(controlDiv);
 
-  // Load the locations GeoJSON onto the map.
-  map.data.loadGeoJson('locations.json', {idPropertyName: 'assetid'});
-  // Define the custom marker from GeoJSON data
+  // Custom Legend  
+  var controlDivLegend = document.createElement('div');
+  var mapControlPanelLegend = new CenterControlLegend(controlDivLegend, map)
+  map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(controlDivLegend);
+
+
+
+
+
+// //   Load the GeoJSON on to the map.
+//   map.data.loadGeoJson('locations.geojson', null, function (features) {
+//     var markers = features.map(function (feature) {
+//         var g = feature.getGeometry();
+//         var marker = new google.maps.Marker({ 'position': g.get(0) });
+//         return marker;
+//     });
+//     var markerCluster = new markerClusterer.MarkerClusterer({map, markers});
+//   });
+// // Style custom marker from GeoJSON data
+//   map.data.setStyle((feature) => {
+//         return {
+//         icon: {
+//             url: `img/icon_${feature.getProperty('category')}.png`,
+//             scaledSize: new google.maps.Size(45, 35),
+//         },
+//         };
+//     });
+
+//   Load the GeoJSON on to the map.
+  map.data.loadGeoJson('locations.geojson');
+    var markers = ()=> {
+        for (let i=0; i < map.data.features.length; i++) {
+            const coords = map.data.features.geometry.coordinates;
+            const latLang = new google.maps.LatLang(coords[1],coords[0]);
+
+            new google.maps.Marker({
+                position: latLang,
+                map: map,
+              });
+        }
+        var markerCluster = new markerClusterer.MarkerClusterer({map, markers});
+    }
+
+// Style custom marker from GeoJSON data
   map.data.setStyle((feature) => {
-    return {
-      icon: {
-        url: `img/icon_${feature.getProperty('category')}.png`,
-        scaledSize: new google.maps.Size(45, 35),
-      },
-    };
-  });
+        return {
+        icon: {
+            url: `img/icon_${feature.getProperty('category')}.png`,
+            scaledSize: new google.maps.Size(45, 35),
+        },
+        };
+    });
+
+
+
+
+
+
+
+
+
+
+
+//   // Load the GeoJSON on to the map.
+//   var geoJsonData = map.data.loadGeoJson('locations.json', {idPropertyName: 'assetid'},);
+//     // Style custom marker from GeoJSON data
+//     map.data.setStyle((feature) => {
+//         return {
+//         icon: {
+//             url: `img/icon_${feature.getProperty('category')}.png`,
+//             scaledSize: new google.maps.Size(45, 35),
+//         },
+//         };
+//     });
+
+//   const markerCluster = new MarkerClusterer( map, map.data.getGeometry() );
+
   // Construct infowindow from GeoJSON data
   const apiKey = 'YOUR_API_KEY';
   const infoWindow = new google.maps.InfoWindow();
-  // Show the information for a store when its marker is clicked.
+  // Show the information when its marker is clicked.
   map.data.addListener('click', (event) => {
     const category = event.feature.getProperty('category');
     const name = event.feature.getProperty('address');
@@ -253,4 +345,5 @@ function initMap() {
     infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
     infoWindow.open(map);
   });
+
 }
