@@ -249,43 +249,8 @@ function initMap() {
   var mapControlPanelLegend = new CenterControlLegend(controlDivLegend, map)
   map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(controlDivLegend);
 
-
-
-
-
-// //   Load the GeoJSON on to the map.
-//   map.data.loadGeoJson('locations.geojson', null, function (features) {
-//     var markers = features.map(function (feature) {
-//         var g = feature.getGeometry();
-//         var marker = new google.maps.Marker({ 'position': g.get(0) });
-//         return marker;
-//     });
-//     var markerCluster = new markerClusterer.MarkerClusterer({map, markers});
-//   });
-// // Style custom marker from GeoJSON data
-//   map.data.setStyle((feature) => {
-//         return {
-//         icon: {
-//             url: `img/icon_${feature.getProperty('category')}.png`,
-//             scaledSize: new google.maps.Size(45, 35),
-//         },
-//         };
-//     });
-
 //   Load the GeoJSON on to the map.
   map.data.loadGeoJson('locations.geojson');
-    var markers = ()=> {
-        for (let i=0; i < map.data.features.length; i++) {
-            const coords = map.data.features.geometry.coordinates;
-            const latLang = new google.maps.LatLang(coords[1],coords[0]);
-
-            new google.maps.Marker({
-                position: latLang,
-                map: map,
-              });
-        }
-        var markerCluster = new markerClusterer.MarkerClusterer({map, markers});
-    }
 
 // Style custom marker from GeoJSON data
   map.data.setStyle((feature) => {
@@ -297,32 +262,8 @@ function initMap() {
         };
     });
 
-
-
-
-
-
-
-
-
-
-
-//   // Load the GeoJSON on to the map.
-//   var geoJsonData = map.data.loadGeoJson('locations.json', {idPropertyName: 'assetid'},);
-//     // Style custom marker from GeoJSON data
-//     map.data.setStyle((feature) => {
-//         return {
-//         icon: {
-//             url: `img/icon_${feature.getProperty('category')}.png`,
-//             scaledSize: new google.maps.Size(45, 35),
-//         },
-//         };
-//     });
-
-//   const markerCluster = new MarkerClusterer( map, map.data.getGeometry() );
-
   // Construct infowindow from GeoJSON data
-  const apiKey = 'YOUR_API_KEY';
+  const apiKey = 'AIzaSyCUFOiGO_Uhny3lJ5tOiVk6i-9nQCCRHKw';
   const infoWindow = new google.maps.InfoWindow();
   // Show the information when its marker is clicked.
   map.data.addListener('click', (event) => {
@@ -345,5 +286,5 @@ function initMap() {
     infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
     infoWindow.open(map);
   });
-
 }
+
