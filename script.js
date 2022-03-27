@@ -110,6 +110,10 @@ function CenterControl(controlDiv, map) {
     controlUI.style.textAlign = "center";
     controlUI.style.opacity = '0.98'
     controlUI.title = "Map Canvas";
+    controlUI.setAttribute('data-geojson', 'geojson files/360.geojson')
+    controlUI.setAttribute('data-zoom', '3')
+    controlUI.setAttribute('data-lat', '43.439892724608804')
+    controlUI.setAttribute('data-lng', '34.51101884210948')
     controlDiv.appendChild(controlUI);
 
     const canvasHeader = document.createElement("div");
@@ -120,7 +124,7 @@ function CenterControl(controlDiv, map) {
     canvasHeader.setAttribute('data-zoom', '3')
     canvasHeader.setAttribute('data-lat', '43.439892724608804')
     canvasHeader.setAttribute('data-lng', '34.51101884210948')
-    canvasHeader.innerHTML = "<div align='center'><img src='img/360 logo.png' width='190' height='140'> </div>";
+    canvasHeader.innerHTML = "<div data-geojson='geojson files/360.geojson' data-zoom='3' data-lat=43.439892724608804 data-lng=43.439892724608804 align='center'><img data-geojson='geojson files/360.geojson' data-zoom='3' data-lat=31.424050672391203 data-lng=43.439892724608804 src='img/360 logo.png' width='190' height='140'> </div>";
     controlUI.appendChild(canvasHeader);
 
     const buttonCurata = document.createElement("div");
@@ -132,7 +136,11 @@ function CenterControl(controlDiv, map) {
     buttonCurata.style.height = "5vh";
     buttonCurata.style.cursor = "pointer";
     buttonCurata.title = "Curata";
-    buttonCurata.innerHTML = "<div align='left' data-geojson='geojson files/curata.geojson' data-zoom='14' data-lat=31.424050672391203 data-lng=74.18639186197906>  Curata  <span style='float:right'> > </span> </div> ";
+    buttonCurata.setAttribute('data-geojson', 'geojson files/curata.geojson')
+    buttonCurata.setAttribute('data-zoom', '3')
+    buttonCurata.setAttribute('data-lat', '43.439892724608804')
+    buttonCurata.setAttribute('data-lng', '34.51101884210948')
+    buttonCurata.innerHTML = "<div align='left' data-geojson='geojson files/curata.geojson' data-zoom='14' data-lat=31.424050672391203 data-lng=74.18639186197906>  Curata  <span style='float:right'> > </span> </div>  ";
 
     controlUI.appendChild(buttonCurata);
 
@@ -145,7 +153,11 @@ function CenterControl(controlDiv, map) {
     buttonStaytoo.style.height = "5vh";
     buttonStaytoo.style.cursor = "pointer";
     buttonStaytoo.title = "StayToo";
-    buttonStaytoo.innerHTML = "<div align='left' data-geojson='geojson files/staytoo.geojson' data-zoom='5' data-lat=31.424050672391203 data-lng=74.18639186197906>  Staytoo  <span style='float:right'> > </span> </div> ";
+    buttonStaytoo.setAttribute('data-geojson', 'geojson files/staytoo.geojson')
+    buttonStaytoo.setAttribute('data-zoom', '3')
+    buttonStaytoo.setAttribute('data-lat', '43.439892724608804')
+    buttonStaytoo.setAttribute('data-lng', '34.51101884210948')
+    buttonStaytoo.innerHTML = "<div align='left' data-geojson='geojson files/staytoo.geojson' data-zoom='5' data-lat=31.424050672391203 data-lng=74.18639186197906>  Staytoo  <span style='float:right'> > </span> </div>";
     controlUI.appendChild(buttonStaytoo);
 
     const buttonSquareville = document.createElement("div");
@@ -157,6 +169,10 @@ function CenterControl(controlDiv, map) {
     buttonSquareville.style.height = "5vh";
     buttonSquareville.style.cursor = "pointer";
     buttonSquareville.title = "SquareVille";
+    buttonSquareville.setAttribute('data-geojson', 'geojson files/squareville.geojson')
+    buttonSquareville.setAttribute('data-zoom', '3')
+    buttonSquareville.setAttribute('data-lat', '43.439892724608804')
+    buttonSquareville.setAttribute('data-lng', '34.51101884210948')
     buttonSquareville.innerHTML = "<div align='left' data-geojson='geojson files/squareville.geojson' data-zoom='1' data-lat=31.424050672391203 data-lng=74.18639186197906>  Squareville  <span style='float:right'> > </span> </div> ";
     controlUI.appendChild(buttonSquareville);
 
@@ -169,6 +185,10 @@ function CenterControl(controlDiv, map) {
     buttonTibadocare.style.height = "5vh";
     buttonTibadocare.style.cursor = "pointer";
     buttonTibadocare.title = "Tibado Care";
+    buttonTibadocare.setAttribute('data-geojson', 'geojson files/tibadocare.geojson')
+    buttonTibadocare.setAttribute('data-zoom', '3')
+    buttonTibadocare.setAttribute('data-lat', '43.439892724608804')
+    buttonTibadocare.setAttribute('data-lng', '34.51101884210948')
     buttonTibadocare.innerHTML = "<div align='left' data-geojson='geojson files/tibadocare.geojson' data-zoom='12' data-lat=31.424050672391203 data-lng=74.18639186197906>  Tibado Care  <span style='float:right'> > </span> </div> ";
     controlUI.appendChild(buttonTibadocare);
 
@@ -181,6 +201,10 @@ function CenterControl(controlDiv, map) {
     buttonPentahotels.style.height = "5vh";
     buttonPentahotels.style.cursor = "pointer";
     buttonPentahotels.title = "Penta Hotels";
+    buttonPentahotels.setAttribute('data-geojson', 'geojson files/pentahotels.geojson')
+    buttonPentahotels.setAttribute('data-zoom', '3')
+    buttonPentahotels.setAttribute('data-lat', '43.439892724608804')
+    buttonPentahotels.setAttribute('data-lng', '34.51101884210948')
     buttonPentahotels.innerHTML = "<div align='left' data-geojson='geojson files/pentahotels.geojson' data-zoom='6' data-lat=31.424050672391203 data-lng=74.18639186197906>  Penta Hotels  <span style='float:right'> > </span> </div> ";
     controlUI.appendChild(buttonPentahotels);
 };
@@ -249,14 +273,19 @@ function initMap() {
 
     // Changing geojson file and call back init funtion on click events
     controlDiv.onclick = (e)=>{
-            geoJsonFile = e.target.getAttribute('data-geojson');
+        geoJsonFile = e.target.parentNode.getAttribute('data-geojson');
         console.log(e);
-        console.log(e.currentTarget.dataset.lat)
-        dataLat =  parseFloat(e.target.getAttribute('data-lat'));
-        console.log(e.currentTarget.dataset.lng)
-        dataLng = parseFloat(e.target.getAttribute('data-lng'));
-        console.log(e.currentTarget.dataset.zoom)
-        zoomLevel = parseFloat(e.target.getAttribute('data-zoom'));
+        console.log(e.currentTarget);
+
+        console.log(e.target.getAttribute('data-geojson'));
+        console.log(e.currentTarget.getAttribute('data-geojson'));
+        console.log(e.target.parentNode.getAttribute('data-geojson'));
+
+        dataLat =  parseFloat(e.target.parentNode.getAttribute('data-lat'));
+        console.log(e.target.parentNode.getAttribute('data-lat'))
+        dataLng = parseFloat(e.target.parentNode.getAttribute('data-lng'));
+        console.log(e.target.parentNode.getAttribute('data-lng'))
+        zoomLevel = parseFloat(e.target.parentNode.getAttribute('data-zoom'));
         initMap();
     };
 
@@ -272,7 +301,7 @@ function initMap() {
             });
 
             // Show the information when its marker is clicked.
-            const apiKey = 'AIzaSyCUFOiGO_Uhny3lJ5tOiVk6i-9nQCCRHKw';
+            const apiKey = 'YOUR_API_KEY';
             const infoWindow = new google.maps.InfoWindow();
             marker.addListener('click', function(event){
                 const category = feature.getProperty('category');
