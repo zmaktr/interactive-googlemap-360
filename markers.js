@@ -248,9 +248,10 @@ function initMap() {
   var mapControlPanelLegend = new CenterControlLegend(controlDivLegend, map)
   map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(controlDivLegend);
 
-//   Load the GeoJSON on to the map.
+  //   Find correct GeoJSON file.
   var geoJsonFile = 'locations.geojson'
 
+  //   Load the GeoJSON on to the map.
   map.data.loadGeoJson(geoJsonFile, null, function(features){
       markers = features.map(function(feature){
           var marker = new google.maps.Marker({
@@ -303,3 +304,22 @@ function initMap() {
   map.data.setMap(null);
 }
 
+
+
+   // controlDiv.setAttribute('data-geojson', 'geojson files/360.geojson')
+    // controlDiv.setAttribute('data-zoom', '3')
+    // controlDiv.setAttribute('data-lat', '43.439892724608804')
+    // controlDiv.setAttribute('data-lng', '34.51101884210948')
+
+
+//     controlDiv.onclick = (e)=>{
+//         geoJsonFile = e.currentTarget.dataset.geojson;
+//     console.log(e);
+//     console.log(e.currentTarget.dataset.lat)
+//     dataLat =  parseFloat(e.currentTarget.dataset.lat);
+//     console.log(e.currentTarget.dataset.lng)
+//     dataLng = parseFloat(e.currentTarget.dataset.lng);
+//     console.log(e.currentTarget.dataset.zoom)
+//     zoomLevel = parseFloat(e.currentTarget.dataset.test);
+//     initMap();
+// };

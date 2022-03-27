@@ -1,0 +1,56 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4801791,52.4151036
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "tibadocare",
+                "address": "Lauchstädter Weg 23", 
+                "city": "Berlin", 
+                "phone": "+49 30 66065466",
+                "email": "andreas.auer@curata-eichler.de",
+                "assetid" : "60"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.8665155,52.6063874
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "tibadocare",
+                "address": "Schützenstraße 36", 
+                "city": "Nauen", 
+                "phone": "+49 3321 4519 - 10",
+                "email": "info@curata.de",
+                "assetid" : "61"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.79914,51.26045
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "tibadocare",
+                "address": "Opitzstrasse 10a", 
+                "city": "Düsseldorf", 
+                "phone": "+49 30 660 654 66",
+                "email": "muenchen.west@squareville.de",
+                "assetid" : "62"
+            }
+        }
+    ]
+}

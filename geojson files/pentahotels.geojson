@@ -1,0 +1,430 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.356721,48.1899681
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Margaretenstraße 92", 
+                "city": "Vienna", 
+                "phone": "+43 1 546 860",
+                "email": "info.vienna@pentahotels.com",
+                "assetid" : "35"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.4443456,50.8847537
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Berkenlaan 5", 
+                "city": "Diegem", 
+                "phone": "+32 27253380",
+                "email": "info.brussels.airport@pentahotels.com",
+                "assetid" : "36"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3571772,50.8332304
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Chaussée de Charleroi", 
+                "city": "Brussels", 
+                "phone": "+32 25336666",
+                "email": "info.brussels.center@pentahotels.com",
+                "assetid" : "37"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.703847,50.877258
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Alfons Semtspelin 7", 
+                "city": "Leuven", 
+                "phone": "+32 16317600",
+                "email": "info.leuven@pentahotels.com",
+                "assetid" : "38"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5654273,50.6429273
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "100, boulevard de la Sauveniere", 
+                "city": "Lìege", 
+                "phone": "+32 42217711",
+                "email": "info.liege@pentahotels.com",
+                "assetid" : "39"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4767959,50.1025237
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Sokolovská 112", 
+                "city": "Prague", 
+                "phone": "+42 222 332 800",
+                "email": "info.prague@pentahotels.com",
+                "assetid" : "40"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.5161747,48.998802
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "12 Allée du Verger", 
+                "city": "Roissy-en-France", 
+                "phone": "+33 1 3018 2100",
+                "email": "info.paris.cdg@pentahotels.com",
+                "assetid" : "41"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.569616,52.4437522
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Grünauer Straße 1", 
+                "city": "Berlin", 
+                "phone": "+49 30 654790",
+                "email": "info.koepenick@pentahotels.com",
+                "assetid" : "42"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5270663,52.2598345
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Auguststraße 6-8", 
+                "city": "Braunschweig", 
+                "phone": "+49 531 48140",
+                "email": "info.braunschweig@pentahotels.com",
+                "assetid" : "43"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.2692301,50.9897881
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Weinbergstraße 5", 
+                "city": "Eisenach", 
+                "phone": "+49 3691 8150",
+                "email": "info.eisenach@pentahotels.com",
+                "assetid" : "44"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.4454617,51.3112773
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Bertha-von-Suttner-Straße 15", 
+                "city": "Kassel", 
+                "phone": "+49 561 93390",
+                "email": "info.kassel@pentahotels.com",
+                "assetid" : "45"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.3869034,51.3409264
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Großer Brockhaus 3", 
+                "city": "Leipzig", 
+                "phone": "+49 (0)341 12920",
+                "email": "info.leipzig@pentahotels.com",
+                "assetid" : "46"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.1355251,54.0877015
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Schwaansche Straße 6", 
+                "city": "Rostock", 
+                "phone": "+49 381 49700",
+                "email": "info.rostock@pentahotels.com",
+                "assetid" : "47"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.2720454,50.0659185
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Abraham-Lincoln-Straße 17", 
+                "city": "Wiesbaden", 
+                "phone": "+49 611 797 700",
+                "email": "info.wiesbaden@pentahotels.com",
+                "assetid" : "48"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.902399,52.473782
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Ernest Street/Holloway Head", 
+                "city": "Birmingham", 
+                "phone": "+44 1216228800",
+                "email": "info.birmingham@pentahotels.com",
+                "assetid" : "49"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.4536475,52.9136843
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Locomotive Way / Pride Park", 
+                "city": "Derby", 
+                "phone": "+44 1332376420",
+                "email": "info.derby@pentahotels.com",
+                "assetid" : "50"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.226787,57.480002
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "63 Academy Street", 
+                "city": "Inverness", 
+                "phone": "+44 1463228850",
+                "email": "info.inverness@pentahotels.com",
+                "assetid" : "51"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.140473,52.052003
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Ranelagh Road", 
+                "city": "Ipswich", 
+                "phone": "+44 1473694600",
+                "email": "info.ipswich@pentahotels.com",
+                "assetid" : "52"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.978174,51.454805
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Oxford Road", 
+                "city": "Reading", 
+                "phone": "+44 1189586222",
+                "email": "info.reading@pentahotels.com",
+                "assetid" : "53"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.520806,53.422854
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "Aston Avenue Birchwood Business Park", 
+                "city": "Warrington", 
+                "phone": "+44 1925847050",
+                "email": "info.warrington@pentahotels.com",
+                "assetid" : "54"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.593048,55.751975
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "15 Novy Arbat Avenue", 
+                "city": "Moscow", 
+                "phone": "+7 495 7874433",
+                "email": "info.moscow@pentahotels.com",
+                "assetid" : "55"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.41834,39.93264
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "3-18 Chongwenmen Wai Street", 
+                "city": "Beijing - Dongcheng District", 
+                "phone": "+86 1067081188",
+                "email": "beijing@pentahotelsasia.com",
+                "assetid" : "56"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.06667,30.66667
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "461 Jiqing 1st Road", 
+                "city": "Chengdu - High Tech Zone", 
+                "phone": "+86 2862630999",
+                "email": "chengducc@pentahotels.cn",
+                "assetid" : "57"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1998532,22.3372471
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "19 Luk Hop Street - San Po Kong Kowloon", 
+                "city": "Hong Kong", 
+                "phone": "+852 31128222",
+                "email": "kowloon@pentahotelsasia.com",
+                "assetid" : "58"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.971968,22.3956601
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pentahotels",
+                "address": "6 Tsun Wen Road - Tuen Mun New Territories", 
+                "city": "Hong Kong", 
+                "phone": "+852 3112 1138",
+                "email": "tuenmun@pentahotelsasia.com",
+                "assetid" : "59"
+            }
+        }
+    ]
+}
