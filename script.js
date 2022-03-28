@@ -137,10 +137,10 @@ function CenterControl(controlDiv, map) {
     buttonCurata.style.cursor = "pointer";
     buttonCurata.title = "Curata";
     buttonCurata.setAttribute('data-geojson', 'geojson files/curata.geojson')
-    buttonCurata.setAttribute('data-zoom', '3')
-    buttonCurata.setAttribute('data-lat', '43.439892724608804')
-    buttonCurata.setAttribute('data-lng', '34.51101884210948')
-    buttonCurata.innerHTML = "<div align='left' data-geojson='geojson files/curata.geojson' data-zoom='14' data-lat=31.424050672391203 data-lng=74.18639186197906>  Curata  <span style='float:right'> > </span> </div>  ";
+    buttonCurata.setAttribute('data-zoom', '6')
+    buttonCurata.setAttribute('data-lat', '51.32953115554232')
+    buttonCurata.setAttribute('data-lng', '9.189274737633982')
+    buttonCurata.innerHTML = "<div align='left' data-geojson='geojson files/curata.geojson' data-zoom='6' data-lat=51.32953115554232 data-lng=9.189274737633982>  Curata  <span style='float:right'> > </span> </div>  ";
 
     controlUI.appendChild(buttonCurata);
 
@@ -154,10 +154,10 @@ function CenterControl(controlDiv, map) {
     buttonStaytoo.style.cursor = "pointer";
     buttonStaytoo.title = "StayToo";
     buttonStaytoo.setAttribute('data-geojson', 'geojson files/staytoo.geojson')
-    buttonStaytoo.setAttribute('data-zoom', '3')
-    buttonStaytoo.setAttribute('data-lat', '43.439892724608804')
-    buttonStaytoo.setAttribute('data-lng', '34.51101884210948')
-    buttonStaytoo.innerHTML = "<div align='left' data-geojson='geojson files/staytoo.geojson' data-zoom='5' data-lat=31.424050672391203 data-lng=74.18639186197906>  Staytoo  <span style='float:right'> > </span> </div>";
+    buttonStaytoo.setAttribute('data-zoom', '6')
+    buttonStaytoo.setAttribute('data-lat', '51.24963589341015')
+    buttonStaytoo.setAttribute('data-lng', '9.435256299888994')
+    buttonStaytoo.innerHTML = "<div align='left' data-geojson='geojson files/staytoo.geojson' data-zoom='6' data-lat=51.24963589341015 data-lng=9.435256299888994>  Staytoo  <span style='float:right'> > </span> </div>";
     controlUI.appendChild(buttonStaytoo);
 
     const buttonSquareville = document.createElement("div");
@@ -170,10 +170,10 @@ function CenterControl(controlDiv, map) {
     buttonSquareville.style.cursor = "pointer";
     buttonSquareville.title = "SquareVille";
     buttonSquareville.setAttribute('data-geojson', 'geojson files/squareville.geojson')
-    buttonSquareville.setAttribute('data-zoom', '3')
-    buttonSquareville.setAttribute('data-lat', '43.439892724608804')
-    buttonSquareville.setAttribute('data-lng', '34.51101884210948')
-    buttonSquareville.innerHTML = "<div align='left' data-geojson='geojson files/squareville.geojson' data-zoom='1' data-lat=31.424050672391203 data-lng=74.18639186197906>  Squareville  <span style='float:right'> > </span> </div> ";
+    buttonSquareville.setAttribute('data-zoom', '12')
+    buttonSquareville.setAttribute('data-lat', '48.1393784')
+    buttonSquareville.setAttribute('data-lng', '11.4089721')
+    buttonSquareville.innerHTML = "<div align='left' data-geojson='geojson files/squareville.geojson' data-zoom='12' data-lat=48.1393784 data-lng=11.4089721>  Squareville  <span style='float:right'> > </span> </div> ";
     controlUI.appendChild(buttonSquareville);
 
     const buttonTibadocare = document.createElement("div");
@@ -186,10 +186,10 @@ function CenterControl(controlDiv, map) {
     buttonTibadocare.style.cursor = "pointer";
     buttonTibadocare.title = "Tibado Care";
     buttonTibadocare.setAttribute('data-geojson', 'geojson files/tibadocare.geojson')
-    buttonTibadocare.setAttribute('data-zoom', '3')
-    buttonTibadocare.setAttribute('data-lat', '43.439892724608804')
-    buttonTibadocare.setAttribute('data-lng', '34.51101884210948')
-    buttonTibadocare.innerHTML = "<div align='left' data-geojson='geojson files/tibadocare.geojson' data-zoom='12' data-lat=31.424050672391203 data-lng=74.18639186197906>  Tibado Care  <span style='float:right'> > </span> </div> ";
+    buttonTibadocare.setAttribute('data-zoom', '10')
+    buttonTibadocare.setAttribute('data-lat', '52.58598575073316')
+    buttonTibadocare.setAttribute('data-lng', '13.223651439856479')
+    buttonTibadocare.innerHTML = "<div align='left' data-geojson='geojson files/tibadocare.geojson' data-zoom='10' data-lat=52.58598575073316 data-lng=13.223651439856479>  Tibado Care  <span style='float:right'> > </span> </div> ";
     controlUI.appendChild(buttonTibadocare);
 
     const buttonPentahotels = document.createElement("div");
@@ -205,33 +205,33 @@ function CenterControl(controlDiv, map) {
     buttonPentahotels.setAttribute('data-zoom', '3')
     buttonPentahotels.setAttribute('data-lat', '43.439892724608804')
     buttonPentahotels.setAttribute('data-lng', '34.51101884210948')
-    buttonPentahotels.innerHTML = "<div align='left' data-geojson='geojson files/pentahotels.geojson' data-zoom='6' data-lat=31.424050672391203 data-lng=74.18639186197906>  Penta Hotels  <span style='float:right'> > </span> </div> ";
+    buttonPentahotels.innerHTML = "<div align='left' data-geojson='geojson files/pentahotels.geojson' data-zoom='3' data-lat=43.439892724608804 data-lng=34.51101884210948>  Penta Hotels  <span style='float:right'> > </span> </div> ";
     controlUI.appendChild(buttonPentahotels);
 };
 // Legend in JS
-function CenterControlLegend(controlDivLegend, map) {
+// function CenterControlLegend(controlDivLegend, map) {
 
-    controlDivLegend.style.marginLeft = '-4vh';
-    controlDivLegend.style.marginBottom = "5vh";
+//     controlDivLegend.style.marginLeft = '-4vh';
+//     controlDivLegend.style.marginBottom = "5vh";
 
-    const controlUILegend = document.createElement("div");
-    controlUILegend.style.backgroundColor = "#769c7e";
-    controlUILegend.style.border = "1px solid #c7bc84";
-    controlUILegend.style.width = '33vh';
-    controlUILegend.style.borderRadius = "3px";
-    controlUILegend.style.boxShadow = "0 2px 6px rgba(0,0,0,.3)";
-    controlUILegend.style.textAlign = "center";
-    controlUILegend.style.opacity = '0.98'
-    controlUILegend.title = "Map Canvas";
-    controlDivLegend.appendChild(controlUILegend);
+//     const controlUILegend = document.createElement("div");
+//     controlUILegend.style.backgroundColor = "#769c7e";
+//     controlUILegend.style.border = "1px solid #c7bc84";
+//     controlUILegend.style.width = '33vh';
+//     controlUILegend.style.borderRadius = "3px";
+//     controlUILegend.style.boxShadow = "0 2px 6px rgba(0,0,0,.3)";
+//     controlUILegend.style.textAlign = "center";
+//     controlUILegend.style.opacity = '0.98'
+//     controlUILegend.title = "Map Canvas";
+//     controlDivLegend.appendChild(controlUILegend);
 
-    const canvasHeaderLegend = document.createElement("div");
-    canvasHeaderLegend.style.backgroundColor = "#769c7e";
-    canvasHeaderLegend.style.color = "#fff";
-    canvasHeaderLegend.style.fontSize = "32px";
-    canvasHeaderLegend.innerHTML = "<div align='center'><img src='img/360 logo.png' width='100' height='70'> </div>";
-    controlUILegend.appendChild(canvasHeaderLegend);
-  };
+//     const canvasHeaderLegend = document.createElement("div");
+//     canvasHeaderLegend.style.backgroundColor = "#769c7e";
+//     canvasHeaderLegend.style.color = "#fff";
+//     canvasHeaderLegend.style.fontSize = "32px";
+//     canvasHeaderLegend.innerHTML = "<div align='center'><img src='img/360 logo.png' width='100' height='70'> </div>";
+//     controlUILegend.appendChild(canvasHeaderLegend);
+//   };
 
 // Global variable declaration
 var geoJsonFile = 'geojson files/360.geojson';
@@ -267,24 +267,22 @@ function initMap() {
     map.controls[google.maps.ControlPosition.TOP_LEFT].push(controlDiv);
 
     // Custom Legend push to map
-    var controlDivLegend = document.createElement('div');
-    var mapControlPanelLegend = new CenterControlLegend(controlDivLegend, map)
-    map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(controlDivLegend);
+    // var controlDivLegend = document.createElement('div');
+    // var mapControlPanelLegend = new CenterControlLegend(controlDivLegend, map)
+    // map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(controlDivLegend);
 
     // Changing geojson file and call back init funtion on click events
     controlDiv.onclick = (e)=>{
+        // console.log(e);
+        // console.log(e.currentTarget);
+        // console.log(e.target.getAttribute('data-geojson'));
+        // console.log(e.currentTarget.getAttribute('data-geojson'));
+        // console.log(e.target.parentNode.getAttribute('data-geojson'));
+        // console.log(e.target.parentNode.getAttribute('data-lat'))
+        // console.log(e.target.parentNode.getAttribute('data-lng'))
         geoJsonFile = e.target.parentNode.getAttribute('data-geojson');
-        console.log(e);
-        console.log(e.currentTarget);
-
-        console.log(e.target.getAttribute('data-geojson'));
-        console.log(e.currentTarget.getAttribute('data-geojson'));
-        console.log(e.target.parentNode.getAttribute('data-geojson'));
-
         dataLat =  parseFloat(e.target.parentNode.getAttribute('data-lat'));
-        console.log(e.target.parentNode.getAttribute('data-lat'))
         dataLng = parseFloat(e.target.parentNode.getAttribute('data-lng'));
-        console.log(e.target.parentNode.getAttribute('data-lng'))
         zoomLevel = parseFloat(e.target.parentNode.getAttribute('data-zoom'));
         initMap();
     };
@@ -301,7 +299,7 @@ function initMap() {
             });
 
             // Show the information when its marker is clicked.
-            const apiKey = 'YOUR_API_KEY';
+            const apiKey = 'AIzaSyCUFOiGO_Uhny3lJ5tOiVk6i-9nQCCRHKw';
             const infoWindow = new google.maps.InfoWindow();
             marker.addListener('click', function(event){
                 const category = feature.getProperty('category');
