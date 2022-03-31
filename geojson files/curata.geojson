@@ -10,7 +10,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Rockenauer Straße 180", 
                 "city": "Eberbach", 
                 "phone": " +49 6271 9248-0",
@@ -27,7 +27,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Ranstädter Straße 10", 
                 "city": "Nidda-Wallernhausen", 
                 "phone": " +49 6043 9661-0",
@@ -44,7 +44,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Ringstraße 180", 
                 "city": "Sudwalde", 
                 "phone": "  +49 4247 9301-0",
@@ -61,7 +61,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Waldstraße 5", 
                 "city": "Bad Rappenau", 
                 "phone": " +49 7264 9142-0",
@@ -78,7 +78,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Rotenburger Straße 22-24", 
                 "city": "Visselhövede", 
                 "phone": " +49 4262 9562-3",
@@ -95,7 +95,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Dianastraße 4", 
                 "city": "Düsseldorf", 
                 "phone": " +49 211 90180-0",
@@ -112,7 +112,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Ringenberg 1", 
                 "city": "Maierhöfen", 
                 "phone": " +49 8383 798-0",
@@ -129,7 +129,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Fuchsenmühle 1", 
                 "city": "Ochsenfurt", 
                 "phone": " +49 9331 901-0",
@@ -146,7 +146,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Lärchenstraße 46", 
                 "city": "Frankfurt/ Main", 
                 "phone": " +49 69 380355-0",
@@ -163,7 +163,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Martin-Reinhard-Straße 30", 
                 "city": "Bad Königshofen", 
                 "phone": " +49 9761 3950-0",
@@ -180,7 +180,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Wilhelmsstraße 35", 
                 "city": "Bad Oyenhausen", 
                 "phone": " +49 5731 3035 - 0",
@@ -197,7 +197,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Benedikt-Höck-Weg 9", 
                 "city": "Weilheim i. OB", 
                 "phone": " +49 881 90119-0",
@@ -214,7 +214,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Küpperstraße 50", 
                 "city": "Dinslaken", 
                 "phone": " +49 2064 4760-0",
@@ -231,7 +231,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Wachsbleichstraße 3", 
                 "city": "Dresden", 
                 "phone": " +49 351 656184-0",
@@ -248,7 +248,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Bachstraße 13-17", 
                 "city": "Deggendorf", 
                 "phone": " +49 30 680700-530",
@@ -265,7 +265,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Pastor-Simon-Weg 3", 
                 "city": "Neustadt am Rübenberge", 
                 "phone": " +49 30 680700-530",
@@ -282,7 +282,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Parkstraße 2-4", 
                 "city": "Bad Soden - Salmünster", 
                 "phone": " +49 6056 9121-0",
@@ -299,7 +299,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Sprudelstraße 19", 
                 "city": "Ortenberg - Selters", 
                 "phone": " +49 6046 942-0",
@@ -316,7 +316,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Viehhofstraße 25-27", 
                 "city": "Mannheim", 
                 "phone": "+49 621 44504 - 0",
@@ -333,7 +333,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Herzog-Julius-Str. 93", 
                 "city": "Bad Harzburg", 
                 "phone": " +49 5322 781 - 0",
@@ -350,7 +350,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Hähner Weg 5", 
                 "city": "Reichshof-Denklingen", 
                 "phone": " +49 02267 8729578",
@@ -367,7 +367,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Schloßfreiheit 3", 
                 "city": "Neustadt-Glewe", 
                 "phone": "+49 38757 538-0",
@@ -384,7 +384,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Binsfelder Burg", 
                 "city": "Nörvenich", 
                 "phone": "+49 2421 707 - 0",
@@ -401,7 +401,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Parkstraße 8-10", 
                 "city": "Wiesbaden", 
                 "phone": " +49 611 9033 - 0",
@@ -418,7 +418,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Meinekestraße 14", 
                 "city": "Berlin", 
                 "phone": " +49 30 885761 - 0",
@@ -435,7 +435,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Clayallee 54-56", 
                 "city": "Berlin", 
                 "phone": " +49 30 841891 - 0",
@@ -452,7 +452,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Dessauerstraße 1", 
                 "city": "Berlin", 
                 "phone": " +49 30 77302 - 0",
@@ -469,7 +469,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Lindenallee 36", 
                 "city": "Alt Schwerin", 
                 "phone": "+49 39932 489 - 11",
@@ -486,7 +486,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Kloster 44", 
                 "city": "Malchow", 
                 "phone": "+49 39932 867 - 0",
@@ -503,7 +503,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Prinz-von-Homburg-Str. 37", 
                 "city": "Neustadt", 
                 "phone": "+49 33970 516 - 0",
@@ -520,7 +520,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Vogelsang 8", 
                 "city": "Plau am See", 
                 "phone": "+49 38735 495 - 0",
@@ -537,7 +537,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Am Haidberg 1", 
                 "city": "Ellrich OT Sülzhayn", 
                 "phone": "+49 36332 8 - 0",
@@ -554,7 +554,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "Karlsruher Straße 80", 
                 "city": "Lübeck", 
                 "phone": "+49 451 29036-0",
@@ -571,7 +571,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Curata",
+                "category": "curata",
                 "address": "An der Dahmebrücke 2", 
                 "city": "Heidesee", 
                 "phone": "",

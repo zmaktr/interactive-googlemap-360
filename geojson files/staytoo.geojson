@@ -10,7 +10,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Staytoo",
+                "category": "staytoo",
                 "address": "Äußere Bayreuther Str. 113", 
                 "city": "Nürnberg", 
                 "phone": "+49 151 1455 6817",
@@ -27,7 +27,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Staytoo",
+                "category": "staytoo",
                 "address": "Rochusstraße 65", 
                 "city": "Bonn", 
                 "phone": "+49 151 1455 7090",
@@ -44,7 +44,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Staytoo",
+                "category": "staytoo",
                 "address": "Trippstadter Straße 115", 
                 "city": "Kaiserslautern", 
                 "phone": " +49 6271 9248-0",
@@ -61,7 +61,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Staytoo",
+                "category": "staytoo",
                 "address": "Karl-Liebknecht-Straße 144", 
                 "city": "Leipzig", 
                 "phone": " +49 6271 9248-0",
@@ -78,7 +78,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Staytoo",
+                "category": "staytoo",
                 "address": "Dudenstraße 80", 
                 "city": "Berlin", 
                 "phone": " +49 6271 9248-0",

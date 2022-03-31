@@ -10,7 +10,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "Squareville",
+                "category": "squareville",
                 "address": "Clarita-Bernhard-Straße 16", 
                 "city": "München", 
                 "phone": "+49 89 212310 370",
