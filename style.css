@@ -19,3 +19,9 @@ h1 {
 #map {
     height: 85vh;;
 }
+
+@media only screen and (max-width: 1026px) {
+    #controlDiv {
+        display: none;
+    }
+}

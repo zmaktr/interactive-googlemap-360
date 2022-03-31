@@ -100,6 +100,7 @@ function CenterControl(controlDiv, map) {
 
     controlDiv.style.marginLeft = '5vh';
     controlDiv.style.marginTop = "5vh";
+    controlDiv.id = 'controlDiv';
 
     const controlUI = document.createElement("div");
     controlUI.style.backgroundColor = "#143a3b";
@@ -288,6 +289,7 @@ function initMap() {
     };
 
     // load markers and infowindow
+    var prev_infowindow = false; 
     map.data.loadGeoJson(geoJsonFile, null, function(features){
         markers = features.map(function(feature){
             var marker = new google.maps.Marker({
@@ -309,17 +311,21 @@ function initMap() {
                 const phone = feature.getProperty('phone');
                 const position = feature.getGeometry().get();
                 const content = `
-                    <img style="float:left; width:200px; margin-top:30px" src="img/icon_${category}.png">
-                    <div style="margin-left:220px; margin-bottom:20px;">
+                    <img style="float:left; align-items:center; width:120px; margin-top:0px" src="img/icon_${category}.png">
+                    <div style="margin-left:120px; margin-bottom:20px;">
                         <h2>${name}</h2><p>${description}</p>
                         <p><b>Email:</b> ${email}<br/><b>Phone:</b> ${phone}</p>
-                        <p><img src="https://maps.googleapis.com/maps/api/streetview?location=${position.lat()},${position.lng()}&size=350x120&key=${apiKey}"></p>
                     </div>
                     `;
+                    // <p><img src="https://maps.googleapis.com/maps/api/streetview?location=${position.lat()},${position.lng()}&size=350x120&key=${apiKey}"></p>
+                if(prev_infowindow) {
+                    prev_infowindow.close();
+                }
+                prev_infowindow = infoWindow
                 infoWindow.setContent(content);
                 infoWindow.setPosition(position);
-                infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
-                infoWindow.open(map);
+                // infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
+                infoWindow.open(map, marker);
             });
             return marker;
         }); 

@@ -15,7 +15,8 @@
                 "city": "Eberbach", 
                 "phone": " +49 6271 9248-0",
                 "email": "eberbach@curata.de ",
-                "assetid" : "01"
+                "assetid" : "01",
+                "website" : "curata.de"
             }
         },
         {
@@ -32,7 +33,8 @@
                 "city": "Nidda-Wallernhausen", 
                 "phone": " +49 6043 9661-0",
                 "email": "nidda@curata.de",
-                "assetid" : "02"
+                "assetid" : "02",
+                "website" : "curata.de"
             }
         },
         {
@@ -49,7 +51,8 @@
                 "city": "Sudwalde", 
                 "phone": "  +49 4247 9301-0",
                 "email": "sudwalde@curata.de",
-                "assetid" : "03"
+                "assetid" : "03",
+                "website" : "curata.de"
             }
         },
         {
@@ -66,7 +69,8 @@
                 "city": "Bad Rappenau", 
                 "phone": " +49 7264 9142-0",
                 "email": "bad-rappenau@curata.de",
-                "assetid" : "04"
+                "assetid" : "04",
+                "website" : "curata.de"
             }
         },
         {
@@ -83,7 +87,8 @@
                 "city": "Visselhövede", 
                 "phone": " +49 4262 9562-3",
                 "email": "visselhoevede@curata.de",
-                "assetid" : "05"
+                "assetid" : "05",
+                "website" : "curata.de"
             }
         },
         {
@@ -100,7 +105,8 @@
                 "city": "Düsseldorf", 
                 "phone": " +49 211 90180-0",
                 "email": "duesseldorf@curata.de",
-                "assetid" : "06"
+                "assetid" : "06",
+                "website" : "curata.de"
             }
         },
         {
@@ -117,7 +123,8 @@
                 "city": "Maierhöfen", 
                 "phone": " +49 8383 798-0",
                 "email": "maierhoefen@curata.de",
-                "assetid" : "07"
+                "assetid" : "07",
+                "website" : "curata.de"
             }
         },
         {
@@ -134,7 +141,8 @@
                 "city": "Ochsenfurt", 
                 "phone": " +49 9331 901-0",
                 "email": "ochsenfurt@curata.de",
-                "assetid" : "08"
+                "assetid" : "08",
+                "website" : "curata.de"
             }
         },
         {
@@ -151,7 +159,8 @@
                 "city": "Frankfurt/ Main", 
                 "phone": " +49 69 380355-0",
                 "email": "frankfurt@curata.de",
-                "assetid" : "09"
+                "assetid" : "09",
+                "website" : "curata.de"
             }
         },
         {
@@ -168,7 +177,8 @@
                 "city": "Bad Königshofen", 
                 "phone": " +49 9761 3950-0",
                 "email": "bad-koenigshofen@curata.de",
-                "assetid" : "10"
+                "assetid" : "10",
+                "website" : "curata.de"
             }
         },
         {
@@ -185,7 +195,8 @@
                 "city": "Bad Oyenhausen", 
                 "phone": " +49 5731 3035 - 0",
                 "email": "bad-oyenhausen@curata.de",
-                "assetid" : "11"
+                "assetid" : "11",
+                "website" : "curata.de"
             }
         },
         {
@@ -202,7 +213,8 @@
                 "city": "Weilheim i. OB", 
                 "phone": " +49 881 90119-0",
                 "email": "verwaltung-weilheim@curata.de",
-                "assetid" : "12"
+                "assetid" : "12",
+                "website" : "curata.de"
             }
         },
         {
@@ -219,7 +231,8 @@
                 "city": "Dinslaken", 
                 "phone": " +49 2064 4760-0",
                 "email": "dinslaken@curata.de",
-                "assetid" : "13"
+                "assetid" : "13",
+                "website" : "curata.de"
             }
         },
         {
@@ -236,7 +249,8 @@
                 "city": "Dresden", 
                 "phone": " +49 351 656184-0",
                 "email": "dresden@curata.de",
-                "assetid" : "14"
+                "assetid" : "14",
+                "website" : "curata.de"
             }
         },
         {
@@ -253,7 +267,8 @@
                 "city": "Deggendorf", 
                 "phone": " +49 30 680700-530",
                 "email": "haus.donautal@curata.de",
-                "assetid" : "15"
+                "assetid" : "15",
+                "website" : "curata.de"
             }
         },
         {
@@ -270,7 +285,8 @@
                 "city": "Neustadt am Rübenberge", 
                 "phone": " +49 30 680700-530",
                 "email": "mandelsloh@curata.de",
-                "assetid" : "16"
+                "assetid" : "16",
+                "website" : "curata.de"
             }
         },
         {
@@ -287,7 +303,8 @@
                 "city": "Bad Soden - Salmünster", 
                 "phone": " +49 6056 9121-0",
                 "email": "bad-soden@curata.de",
-                "assetid" : "17"
+                "assetid" : "17",
+                "website" : "curata.de"
             }
         },
         {
@@ -304,7 +321,8 @@
                 "city": "Ortenberg - Selters", 
                 "phone": " +49 6046 942-0",
                 "email": "ortenberg@curata.de ",
-                "assetid" : "18"
+                "assetid" : "18",
+                "website" : "curata.de"
             }
         },
         {
@@ -321,7 +339,8 @@
                 "city": "Mannheim", 
                 "phone": "+49 621 44504 - 0",
                 "email": "mannheim@curata.de",
-                "assetid" : "19"
+                "assetid" : "19",
+                "website" : "curata.de"
             }
         },
         {
@@ -338,7 +357,8 @@
                 "city": "Bad Harzburg", 
                 "phone": " +49 5322 781 - 0",
                 "email": "bad-harzburg@curata.de ",
-                "assetid" : "20"
+                "assetid" : "20",
+                "website" : "curata.de"
             }
         },
         {
@@ -355,7 +375,8 @@
                 "city": "Reichshof-Denklingen", 
                 "phone": " +49 02267 8729578",
                 "email": "reichshof-denklingen@curata.de ",
-                "assetid" : "21"
+                "assetid" : "21",
+                "website" : "curata.de"
             }
         },
         {
@@ -372,7 +393,8 @@
                 "city": "Neustadt-Glewe", 
                 "phone": "+49 38757 538-0",
                 "email": "neustadt-glewe@curata.de",
-                "assetid" : "22"
+                "assetid" : "22",
+                "website" : "curata.de"
             }
         },
         {
@@ -389,7 +411,8 @@
                 "city": "Nörvenich", 
                 "phone": "+49 2421 707 - 0",
                 "email": "noervenich@curata.de",
-                "assetid" : "23"
+                "assetid" : "23",
+                "website" : "curata.de"
             }
         },
         {
@@ -406,7 +429,8 @@
                 "city": "Wiesbaden", 
                 "phone": " +49 611 9033 - 0",
                 "email": "wiesbaden@curata.de",
-                "assetid" : "24"
+                "assetid" : "24",
+                "website" : "curata.de"
             }
         },
         {
@@ -423,7 +447,8 @@
                 "city": "Berlin", 
                 "phone": " +49 30 885761 - 0",
                 "email": "pac@familie-franke.de",
-                "assetid" : "25"
+                "assetid" : "25",
+                "website" : "curata.de"
             }
         },
         {
@@ -440,7 +465,8 @@
                 "city": "Berlin", 
                 "phone": " +49 30 841891 - 0",
                 "email": "rd@familie-franke.de",
-                "assetid" : "26"
+                "assetid" : "26",
+                "website" : "curata.de"
             }
         },
         {
@@ -457,7 +483,8 @@
                 "city": "Berlin", 
                 "phone": " +49 30 77302 - 0",
                 "email": "sw@familie-franke.de",
-                "assetid" : "27"
+                "assetid" : "27",
+                "website" : "curata.de"
             }
         },
         {
@@ -474,7 +501,8 @@
                 "city": "Alt Schwerin", 
                 "phone": "+49 39932 489 - 11",
                 "email": "alt-schwerin@curata.de",
-                "assetid" : "28"
+                "assetid" : "28",
+                "website" : "curata.de"
             }
         },
         {
@@ -491,7 +519,8 @@
                 "city": "Malchow", 
                 "phone": "+49 39932 867 - 0",
                 "email": "malchow@curata.de  ",
-                "assetid" : "29"
+                "assetid" : "29",
+                "website" : "curata.de"
             }
         },
         {
@@ -508,7 +537,8 @@
                 "city": "Neustadt", 
                 "phone": "+49 33970 516 - 0",
                 "email": "neustadt-dosse@curata.de",
-                "assetid" : "30"
+                "assetid" : "30",
+                "website" : "curata.de"
             }
         },
         {
@@ -525,7 +555,8 @@
                 "city": "Plau am See", 
                 "phone": "+49 38735 495 - 0",
                 "email": "plau-am-see@curata.de ",
-                "assetid" : "31"
+                "assetid" : "31",
+                "website" : "curata.de"
             }
         },
         {
@@ -542,7 +573,8 @@
                 "city": "Ellrich OT Sülzhayn", 
                 "phone": "+49 36332 8 - 0",
                 "email": "suelzhayn@curata.de ",
-                "assetid" : "32"
+                "assetid" : "32",
+                "website" : "curata.de"
             }
         },
         {
@@ -559,7 +591,8 @@
                 "city": "Lübeck", 
                 "phone": "+49 451 29036-0",
                 "email": "luebeck@curata.de",
-                "assetid" : "33"
+                "assetid" : "33",
+                "website" : "curata.de"
             }
         },
         {
@@ -576,7 +609,8 @@
                 "city": "Heidesee", 
                 "phone": "",
                 "email": "heidesee@curata.de",
-                "assetid" : "34"
+                "assetid" : "34",
+                "website" : "curata.de"
             }
         },
         {
@@ -593,7 +627,8 @@
                 "city": "Vienna", 
                 "phone": "+43 1 546 860",
                 "email": "info.vienna@pentahotels.com",
-                "assetid" : "35"
+                "assetid" : "35",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -610,7 +645,8 @@
                 "city": "Diegem", 
                 "phone": "+32 27253380",
                 "email": "info.brussels.airport@pentahotels.com",
-                "assetid" : "36"
+                "assetid" : "36",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -627,7 +663,8 @@
                 "city": "Brussels", 
                 "phone": "+32 25336666",
                 "email": "info.brussels.center@pentahotels.com",
-                "assetid" : "37"
+                "assetid" : "37",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -644,7 +681,8 @@
                 "city": "Leuven", 
                 "phone": "+32 16317600",
                 "email": "info.leuven@pentahotels.com",
-                "assetid" : "38"
+                "assetid" : "38",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -661,7 +699,8 @@
                 "city": "Lìege", 
                 "phone": "+32 42217711",
                 "email": "info.liege@pentahotels.com",
-                "assetid" : "39"
+                "assetid" : "39",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -678,7 +717,8 @@
                 "city": "Prague", 
                 "phone": "+42 222 332 800",
                 "email": "info.prague@pentahotels.com",
-                "assetid" : "40"
+                "assetid" : "40",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -695,7 +735,8 @@
                 "city": "Roissy-en-France", 
                 "phone": "+33 1 3018 2100",
                 "email": "info.paris.cdg@pentahotels.com",
-                "assetid" : "41"
+                "assetid" : "41",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -712,7 +753,8 @@
                 "city": "Berlin", 
                 "phone": "+49 30 654790",
                 "email": "info.koepenick@pentahotels.com",
-                "assetid" : "42"
+                "assetid" : "42",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -729,7 +771,8 @@
                 "city": "Braunschweig", 
                 "phone": "+49 531 48140",
                 "email": "info.braunschweig@pentahotels.com",
-                "assetid" : "43"
+                "assetid" : "43",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -746,7 +789,8 @@
                 "city": "Eisenach", 
                 "phone": "+49 3691 8150",
                 "email": "info.eisenach@pentahotels.com",
-                "assetid" : "44"
+                "assetid" : "44",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -763,7 +807,8 @@
                 "city": "Kassel", 
                 "phone": "+49 561 93390",
                 "email": "info.kassel@pentahotels.com",
-                "assetid" : "45"
+                "assetid" : "45",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -780,7 +825,8 @@
                 "city": "Leipzig", 
                 "phone": "+49 (0)341 12920",
                 "email": "info.leipzig@pentahotels.com",
-                "assetid" : "46"
+                "assetid" : "46",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -797,7 +843,8 @@
                 "city": "Rostock", 
                 "phone": "+49 381 49700",
                 "email": "info.rostock@pentahotels.com",
-                "assetid" : "47"
+                "assetid" : "47",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -814,7 +861,8 @@
                 "city": "Wiesbaden", 
                 "phone": "+49 611 797 700",
                 "email": "info.wiesbaden@pentahotels.com",
-                "assetid" : "48"
+                "assetid" : "48",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -831,7 +879,8 @@
                 "city": "Birmingham", 
                 "phone": "+44 1216228800",
                 "email": "info.birmingham@pentahotels.com",
-                "assetid" : "49"
+                "assetid" : "49",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -848,7 +897,8 @@
                 "city": "Derby", 
                 "phone": "+44 1332376420",
                 "email": "info.derby@pentahotels.com",
-                "assetid" : "50"
+                "assetid" : "50",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -865,7 +915,8 @@
                 "city": "Inverness", 
                 "phone": "+44 1463228850",
                 "email": "info.inverness@pentahotels.com",
-                "assetid" : "51"
+                "assetid" : "51",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -882,7 +933,8 @@
                 "city": "Ipswich", 
                 "phone": "+44 1473694600",
                 "email": "info.ipswich@pentahotels.com",
-                "assetid" : "52"
+                "assetid" : "52",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -899,7 +951,8 @@
                 "city": "Reading", 
                 "phone": "+44 1189586222",
                 "email": "info.reading@pentahotels.com",
-                "assetid" : "53"
+                "assetid" : "53",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -916,7 +969,8 @@
                 "city": "Warrington", 
                 "phone": "+44 1925847050",
                 "email": "info.warrington@pentahotels.com",
-                "assetid" : "54"
+                "assetid" : "54",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -933,7 +987,8 @@
                 "city": "Moscow", 
                 "phone": "+7 495 7874433",
                 "email": "info.moscow@pentahotels.com",
-                "assetid" : "55"
+                "assetid" : "55",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -950,7 +1005,8 @@
                 "city": "Beijing - Dongcheng District", 
                 "phone": "+86 1067081188",
                 "email": "beijing@pentahotelsasia.com",
-                "assetid" : "56"
+                "assetid" : "56",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -967,7 +1023,8 @@
                 "city": "Chengdu - High Tech Zone", 
                 "phone": "+86 2862630999",
                 "email": "chengducc@pentahotels.cn",
-                "assetid" : "57"
+                "assetid" : "57",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -984,7 +1041,8 @@
                 "city": "Hong Kong", 
                 "phone": "+852 31128222",
                 "email": "kowloon@pentahotelsasia.com",
-                "assetid" : "58"
+                "assetid" : "58",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -1001,7 +1059,8 @@
                 "city": "Hong Kong", 
                 "phone": "+852 3112 1138",
                 "email": "tuenmun@pentahotelsasia.com",
-                "assetid" : "59"
+                "assetid" : "59",
+                "website" : "pentahotels.com"
             }
         },
         {
@@ -1018,7 +1077,8 @@
                 "city": "Berlin", 
                 "phone": "+49 30 66065466",
                 "email": "andreas.auer@curata-eichler.de",
-                "assetid" : "60"
+                "assetid" : "60",
+                "website" : ""
             }
         },
         {
@@ -1035,7 +1095,8 @@
                 "city": "Nauen", 
                 "phone": "+49 3321 4519 - 10",
                 "email": "info@curata.de",
-                "assetid" : "61"
+                "assetid" : "61",
+                "website" : ""
             }
         },
         {
@@ -1052,7 +1113,8 @@
                 "city": "Düsseldorf", 
                 "phone": "+49 30 660 654 66",
                 "email": "muenchen.west@squareville.de",
-                "assetid" : "62"
+                "assetid" : "62",
+                "website" : ""
             }
         },
         {
@@ -1069,7 +1131,8 @@
                 "city": "München", 
                 "phone": "+49 89 212310 370",
                 "email": "info@staytoo.de",
-                "assetid" : "63"
+                "assetid" : "63",
+                "website" : ""
             }
         },
         {
@@ -1086,7 +1149,8 @@
                 "city": "Nürnberg", 
                 "phone": "+49 151 1455 6817",
                 "email": "info@staytoo.de",
-                "assetid" : "64"
+                "assetid" : "64",
+                "website" : "staytoo.de"
             }
         },
         {
@@ -1103,7 +1167,8 @@
                 "city": "Bonn", 
                 "phone": "+49 151 1455 7090",
                 "email": "info@staytoo.de",
-                "assetid" : "65"
+                "assetid" : "65",
+                "website" : "staytoo.de"
             }
         },
         {
@@ -1120,7 +1185,8 @@
                 "city": "Kaiserslautern", 
                 "phone": " +49 6271 9248-0",
                 "email": "info@staytoo.de",
-                "assetid" : "66"
+                "assetid" : "66",
+                "website" : "staytoo.de"
             }
         },
         {
@@ -1137,7 +1203,8 @@
                 "city": "Leipzig", 
                 "phone": " +49 6271 9248-0",
                 "email": "info@staytoo.de",
-                "assetid" : "67"
+                "assetid" : "67",
+                "website" : "staytoo.de"
             }
         },
         {
@@ -1154,7 +1221,8 @@
                 "city": "Berlin", 
                 "phone": " +49 6271 9248-0",
                 "email": "info@staytoo.de",
-                "assetid" : "68"
+                "assetid" : "68",
+                "website" : "staytoo.de"
             }
         }
     ]
