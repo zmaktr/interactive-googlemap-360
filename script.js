@@ -101,6 +101,10 @@ function CenterControl(controlDiv, map) {
     controlDiv.style.marginLeft = '5vh';
     controlDiv.style.marginTop = "5vh";
     controlDiv.id = 'controlDiv';
+    controlDiv.setAttribute('data-geojson', 'geojson files/360.geojson')
+    controlDiv.setAttribute('data-zoom', '3')
+    controlDiv.setAttribute('data-lat', '43.439892724608804')
+    controlDiv.setAttribute('data-lng', '34.51101884210948')
 
     const controlUI = document.createElement("div");
     controlUI.style.backgroundColor = "#143a3b";
@@ -135,7 +139,6 @@ function CenterControl(controlDiv, map) {
     buttonCurata.style.fontSize = "17px";
     buttonCurata.style.paddingLeft='5px';
     buttonCurata.style.paddingRight='10px';
-    buttonCurata.style.height = "5vh";
     buttonCurata.style.width = "30vh"
     buttonCurata.style.cursor = "pointer";
     buttonCurata.style.marginBottom = "0.5vh"
@@ -146,7 +149,7 @@ function CenterControl(controlDiv, map) {
     buttonCurata.setAttribute('data-zoom', '6')
     buttonCurata.setAttribute('data-lat', '51.32953115554232')
     buttonCurata.setAttribute('data-lng', '9.189274737633982')
-    buttonCurata.innerHTML = "<div align='left' data-geojson='geojson files/curata.geojson' data-zoom='6' data-lat=51.32953115554232 data-lng=9.189274737633982>  Curata  <span style='float:right' data-geojson='geojson files/curata.geojson' data-zoom='6' data-lat=51.32953115554232 data-lng=9.189274737633982> <img height='15px' width='15px' src='img/map.png'> </span> </div>  ";
+    buttonCurata.innerHTML = "<div style='height:5vh;line-height:5vh;text-align:left;' data-geojson='geojson files/curata.geojson' data-zoom='6' data-lat=51.32953115554232 data-lng=9.189274737633982>  Curata  <span style='float:right' data-geojson='geojson files/curata.geojson' data-zoom='6' data-lat=51.32953115554232 data-lng=9.189274737633982> <img height='15px' width='15px' src='img/map.png'> </span> </div>  ";
 
     controlUI.appendChild(buttonCurata);
 
@@ -156,7 +159,6 @@ function CenterControl(controlDiv, map) {
     buttonStaytoo.style.fontSize = "17px";
     buttonStaytoo.style.paddingLeft='5px';
     buttonStaytoo.style.paddingRight='10px';
-    buttonStaytoo.style.height = "5vh";
     buttonStaytoo.style.width = "30vh"
     buttonStaytoo.style.cursor = "pointer";
     buttonStaytoo.style.marginBottom = "0.5vh"
@@ -167,7 +169,7 @@ function CenterControl(controlDiv, map) {
     buttonStaytoo.setAttribute('data-zoom', '6')
     buttonStaytoo.setAttribute('data-lat', '51.24963589341015')
     buttonStaytoo.setAttribute('data-lng', '9.435256299888994')
-    buttonStaytoo.innerHTML = "<div align='left' data-geojson='geojson files/staytoo.geojson' data-zoom='6' data-lat=51.24963589341015 data-lng=9.435256299888994>  Staytoo  <span style='float:right' data-geojson='geojson files/staytoo.geojson' data-zoom='6' data-lat=51.24963589341015 data-lng=9.435256299888994>  <img height='15px' width='15px' src='img/map.png'> </span> </div>";
+    buttonStaytoo.innerHTML = "<div style='height:5vh;line-height:5vh;text-align:left;' data-geojson='geojson files/staytoo.geojson' data-zoom='6' data-lat=51.24963589341015 data-lng=9.435256299888994>  Staytoo  <span style='float:right' data-geojson='geojson files/staytoo.geojson' data-zoom='6' data-lat=51.24963589341015 data-lng=9.435256299888994>  <img height='15px' width='15px' src='img/map.png'> </span> </div>";
     controlUI.appendChild(buttonStaytoo);
 
     const buttonSquareville = document.createElement("button");
@@ -176,7 +178,6 @@ function CenterControl(controlDiv, map) {
     buttonSquareville.style.fontSize = "17px";
     buttonSquareville.style.paddingLeft='5px';
     buttonSquareville.style.paddingRight='10px';
-    buttonSquareville.style.height = "5vh";
     buttonSquareville.style.width = "30vh"
     buttonSquareville.style.cursor = "pointer";
     buttonSquareville.style.marginBottom = "0.5vh"
@@ -187,7 +188,7 @@ function CenterControl(controlDiv, map) {
     buttonSquareville.setAttribute('data-zoom', '12')
     buttonSquareville.setAttribute('data-lat', '48.1393784')
     buttonSquareville.setAttribute('data-lng', '11.4089721')
-    buttonSquareville.innerHTML = "<div align='left' data-geojson='geojson files/squareville.geojson' data-zoom='12' data-lat=48.1393784 data-lng=11.4089721>  Squareville  <span style='float:right' data-geojson='geojson files/squareville.geojson' data-zoom='12' data-lat=48.1393784 data-lng=11.4089721> <img height='15px' width='15px' src='img/map.png'> </span> </div> ";
+    buttonSquareville.innerHTML = "<div style='height:5vh;line-height:5vh;text-align:left;' data-geojson='geojson files/squareville.geojson' data-zoom='12' data-lat=48.1393784 data-lng=11.4089721>  Squareville  <span style='float:right' data-geojson='geojson files/squareville.geojson' data-zoom='12' data-lat=48.1393784 data-lng=11.4089721> <img height='15px' width='15px' src='img/map.png'> </span> </div> ";
     controlUI.appendChild(buttonSquareville);
 
     const buttonTibadocare = document.createElement("button");
@@ -196,7 +197,6 @@ function CenterControl(controlDiv, map) {
     buttonTibadocare.style.fontSize = "17px";
     buttonTibadocare.style.paddingLeft='5px';
     buttonTibadocare.style.paddingRight='10px';
-    buttonTibadocare.style.height = "5vh";
     buttonTibadocare.style.width = "30vh"
     buttonTibadocare.style.cursor = "pointer";
     buttonTibadocare.style.marginBottom = "0.5vh"
@@ -207,7 +207,7 @@ function CenterControl(controlDiv, map) {
     buttonTibadocare.setAttribute('data-zoom', '10')
     buttonTibadocare.setAttribute('data-lat', '52.58598575073316')
     buttonTibadocare.setAttribute('data-lng', '13.223651439856479')
-    buttonTibadocare.innerHTML = "<div align='left' data-geojson='geojson files/tibadocare.geojson' data-zoom='10' data-lat=52.58598575073316 data-lng=13.223651439856479>  Tibado Care  <span style='float:right' data-geojson='geojson files/tibadocare.geojson' data-zoom='10' data-lat=52.58598575073316 data-lng=13.223651439856479> <img height='15px' width='15px' src='img/map.png'> </span> </div> ";
+    buttonTibadocare.innerHTML = "<div style='height:5vh;line-height:5vh;text-align:left;' data-geojson='geojson files/tibadocare.geojson' data-zoom='10' data-lat=52.58598575073316 data-lng=13.223651439856479>  Tibado Care  <span style='float:right' data-geojson='geojson files/tibadocare.geojson' data-zoom='10' data-lat=52.58598575073316 data-lng=13.223651439856479> <img height='15px' width='15px' src='img/map.png'> </span> </div> ";
     controlUI.appendChild(buttonTibadocare);
 
     const buttonPentahotels = document.createElement("button");
@@ -216,7 +216,6 @@ function CenterControl(controlDiv, map) {
     buttonPentahotels.style.fontSize = "17px";
     buttonPentahotels.style.paddingLeft='5px';
     buttonPentahotels.style.paddingRight='10px';
-    buttonPentahotels.style.height = "5vh";
     buttonPentahotels.style.width = "30vh"
     buttonPentahotels.style.cursor = "pointer";
     buttonPentahotels.style.marginBottom = "0.5vh"
@@ -227,7 +226,7 @@ function CenterControl(controlDiv, map) {
     buttonPentahotels.setAttribute('data-zoom', '3')
     buttonPentahotels.setAttribute('data-lat', '43.439892724608804')
     buttonPentahotels.setAttribute('data-lng', '34.51101884210948')
-    buttonPentahotels.innerHTML = "<div align='left' data-geojson='geojson files/pentahotels.geojson' data-zoom='3' data-lat=43.439892724608804 data-lng=34.51101884210948>  Penta Hotels  <span style='float:right' data-geojson='geojson files/pentahotels.geojson' data-zoom='3' data-lat=43.439892724608804 data-lng=34.51101884210948> <img height='15px' width='15px' src='img/map.png'> </span> </div> ";
+    buttonPentahotels.innerHTML = "<div style='height:5vh;line-height:5vh;text-align:left;'  data-geojson='geojson files/pentahotels.geojson' data-zoom='3' data-lat=43.439892724608804 data-lng=34.51101884210948>  Penta Hotels  <span style='float:right' data-geojson='geojson files/pentahotels.geojson' data-zoom='3' data-lat=43.439892724608804 data-lng=34.51101884210948> <img height='15px' width='15px' src='img/map.png'> </span> </div> ";
     controlUI.appendChild(buttonPentahotels);
 };
 // Legend in JS
