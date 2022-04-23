@@ -1,0 +1,23 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.2821001,52.479101
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "panolialiving",
+                "address": "Karlsbader Str. 16", 
+                "city": "Berlin", 
+                "phone": "",
+                "email": "",
+                "assetid" : "69",
+                "website" : ""
+            }
+        }
+    ]
+}

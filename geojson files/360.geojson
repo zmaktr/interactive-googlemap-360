@@ -1121,18 +1121,18 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    11.4089721,48.1393784
+                    13.314521789550781, 52.5104866027832
                 ]
             },
             "type": "Feature",
             "properties": {
-                "category": "squareville",
-                "address": "Clarita-Bernhard-Straße 16", 
-                "city": "München", 
-                "phone": "+49 89 212310 370",
-                "email": "info@staytoo.de",
+                "category": "stayurban",
+                "address": "Leibnitzstraße 3-4", 
+                "city": "Berlin", 
+                "phone": "+49 40 380224 565",
+                "email": "info@stayurban.de",
                 "assetid" : "63",
-                "website" : ""
+                "website" : "stayurban.de"
             }
         },
         {
@@ -1223,6 +1223,24 @@
                 "email": "info@staytoo.de",
                 "assetid" : "68",
                 "website" : "staytoo.de"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.2821001,52.479101
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "panolialiving",
+                "address": "Karlsbader Str. 16", 
+                "city": "Berlin", 
+                "phone": "",
+                "email": "",
+                "assetid" : "69",
+                "website" : ""
             }
         }
     ]

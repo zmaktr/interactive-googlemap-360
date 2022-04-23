@@ -172,24 +172,24 @@ function CenterControl(controlDiv, map) {
     buttonStaytoo.innerHTML = "<div style='height:5vh;line-height:5vh;text-align:left;' data-geojson='geojson files/staytoo.geojson' data-zoom='6' data-lat=51.24963589341015 data-lng=9.435256299888994>  Staytoo  <span style='float:right' data-geojson='geojson files/staytoo.geojson' data-zoom='6' data-lat=51.24963589341015 data-lng=9.435256299888994>  <img height='15px' width='15px' src='img/map.png'> </span> </div>";
     controlUI.appendChild(buttonStaytoo);
 
-    const buttonSquareville = document.createElement("button");
-    buttonSquareville.style.backgroundColor = "#235354";
-    buttonSquareville.style.color = "#c9dcdd";
-    buttonSquareville.style.fontSize = "17px";
-    buttonSquareville.style.paddingLeft='5px';
-    buttonSquareville.style.paddingRight='10px';
-    buttonSquareville.style.width = "30vh"
-    buttonSquareville.style.cursor = "pointer";
-    buttonSquareville.style.marginBottom = "0.5vh"
-    buttonSquareville.style.borderRadius = "1vh"
-    buttonSquareville.style.border = "1px solid #a38647"  
-    buttonSquareville.title = "SquareVille";
-    buttonSquareville.setAttribute('data-geojson', 'geojson files/squareville.geojson')
-    buttonSquareville.setAttribute('data-zoom', '12')
-    buttonSquareville.setAttribute('data-lat', '48.1393784')
-    buttonSquareville.setAttribute('data-lng', '11.4089721')
-    buttonSquareville.innerHTML = "<div style='height:5vh;line-height:5vh;text-align:left;' data-geojson='geojson files/squareville.geojson' data-zoom='12' data-lat=48.1393784 data-lng=11.4089721>  Squareville  <span style='float:right' data-geojson='geojson files/squareville.geojson' data-zoom='12' data-lat=48.1393784 data-lng=11.4089721> <img height='15px' width='15px' src='img/map.png'> </span> </div> ";
-    controlUI.appendChild(buttonSquareville);
+    const buttonStayurban = document.createElement("button");
+    buttonStayurban.style.backgroundColor = "#235354";
+    buttonStayurban.style.color = "#c9dcdd";
+    buttonStayurban.style.fontSize = "17px";
+    buttonStayurban.style.paddingLeft='5px';
+    buttonStayurban.style.paddingRight='10px';
+    buttonStayurban.style.width = "30vh"
+    buttonStayurban.style.cursor = "pointer";
+    buttonStayurban.style.marginBottom = "0.5vh"
+    buttonStayurban.style.borderRadius = "1vh"
+    buttonStayurban.style.border = "1px solid #a38647"  
+    buttonStayurban.title = "stayurban";
+    buttonStayurban.setAttribute('data-geojson', 'geojson files/stayurban.geojson')
+    buttonStayurban.setAttribute('data-zoom', '13')
+    buttonStayurban.setAttribute('data-lat', '52.5104866027832')
+    buttonStayurban.setAttribute('data-lng', '13.314521789550781')
+    buttonStayurban.innerHTML = "<div style='height:5vh;line-height:5vh;text-align:left;' data-geojson='geojson files/stayurban.geojson' data-zoom='13' data-lat=52.5104866027832 data-lng=13.314521789550781>  Stayurban  <span style='float:right' data-geojson='geojson files/stayurban.geojson' data-zoom='13' data-lat=52.5104866027832 data-lng=13.314521789550781> <img height='15px' width='15px' src='img/map.png'> </span> </div> ";
+    controlUI.appendChild(buttonStayurban);
 
     const buttonTibadocare = document.createElement("button");
     buttonTibadocare.style.backgroundColor = "#235354";
@@ -204,10 +204,10 @@ function CenterControl(controlDiv, map) {
     buttonTibadocare.style.border = "1px solid #a38647"  
     buttonTibadocare.title = "Tibado Care";
     buttonTibadocare.setAttribute('data-geojson', 'geojson files/tibadocare.geojson')
-    buttonTibadocare.setAttribute('data-zoom', '10')
-    buttonTibadocare.setAttribute('data-lat', '52.58598575073316')
-    buttonTibadocare.setAttribute('data-lng', '13.223651439856479')
-    buttonTibadocare.innerHTML = "<div style='height:5vh;line-height:5vh;text-align:left;' data-geojson='geojson files/tibadocare.geojson' data-zoom='10' data-lat=52.58598575073316 data-lng=13.223651439856479>  Tibado Care  <span style='float:right' data-geojson='geojson files/tibadocare.geojson' data-zoom='10' data-lat=52.58598575073316 data-lng=13.223651439856479> <img height='15px' width='15px' src='img/map.png'> </span> </div> ";
+    buttonTibadocare.setAttribute('data-zoom', '7')
+    buttonTibadocare.setAttribute('data-lat', '52.00873388049323')
+    buttonTibadocare.setAttribute('data-lng', '9.325266432520156')
+    buttonTibadocare.innerHTML = "<div style='height:5vh;line-height:5vh;text-align:left;' data-geojson='geojson files/tibadocare.geojson' data-zoom='7' data-lat=52.00873388049323 data-lng=9.325266432520156>  Tibado Care  <span style='float:right' data-geojson='geojson files/tibadocare.geojson' data-zoom='7' data-lat=52.00873388049323 data-lng=9.325266432520156> <img height='15px' width='15px' src='img/map.png'> </span> </div> ";
     controlUI.appendChild(buttonTibadocare);
 
     const buttonPentahotels = document.createElement("button");
@@ -228,6 +228,25 @@ function CenterControl(controlDiv, map) {
     buttonPentahotels.setAttribute('data-lng', '34.51101884210948')
     buttonPentahotels.innerHTML = "<div style='height:5vh;line-height:5vh;text-align:left;'  data-geojson='geojson files/pentahotels.geojson' data-zoom='3' data-lat=43.439892724608804 data-lng=34.51101884210948>  Penta Hotels  <span style='float:right' data-geojson='geojson files/pentahotels.geojson' data-zoom='3' data-lat=43.439892724608804 data-lng=34.51101884210948> <img height='15px' width='15px' src='img/map.png'> </span> </div> ";
     controlUI.appendChild(buttonPentahotels);
+
+    const buttonPanolialiving = document.createElement("button");
+    buttonPanolialiving.style.backgroundColor = "#235354";
+    buttonPanolialiving.style.color = "#c9dcdd";
+    buttonPanolialiving.style.fontSize = "17px";
+    buttonPanolialiving.style.paddingLeft='5px';
+    buttonPanolialiving.style.paddingRight='10px';
+    buttonPanolialiving.style.width = "30vh"
+    buttonPanolialiving.style.cursor = "pointer";
+    buttonPanolialiving.style.marginBottom = "0.5vh"
+    buttonPanolialiving.style.borderRadius = "1vh"
+    buttonPanolialiving.style.border = "1px solid #a38647"  
+    buttonPanolialiving.title = "Penta Hotels";
+    buttonPanolialiving.setAttribute('data-geojson', 'geojson files/panolialiving.geojson')
+    buttonPanolialiving.setAttribute('data-zoom', '10')
+    buttonPanolialiving.setAttribute('data-lat', '52.479101')
+    buttonPanolialiving.setAttribute('data-lng', '13.2821001')
+    buttonPanolialiving.innerHTML = "<div style='height:5vh;line-height:5vh;text-align:left;'  data-geojson='geojson files/panolialiving.geojson' data-zoom='10' data-lat=52.479101 data-lng=13.2821001>  Panolia Living  <span style='float:right' data-geojson='geojson files/panolialiving.geojson' data-zoom='10' data-lat=52.479101 data-lng=13.2821001> <img height='15px' width='15px' src='img/map.png'> </span> </div> ";
+    controlUI.appendChild(buttonPanolialiving);
 };
 // Legend in JS
 // function CenterControlLegend(controlDivLegend, map) {
@@ -316,7 +335,7 @@ function initMap() {
                 position: feature.getGeometry().get(0),
                 icon: {
                     url: `img/icon_${feature.getProperty('category')}.png`,
-                    scaledSize: new google.maps.Size(45, 35),
+                    scaledSize: new google.maps.Size(60, 40),
                 }
             });
 
@@ -332,7 +351,7 @@ function initMap() {
                 const position = feature.getGeometry().get();
                 const content = `
                     <img style="float:left; align-items:center; width:120px; margin-top:0px" src="img/icon_${category}.png">
-                    <div style="margin-left:120px; margin-bottom:20px;">
+                    <div style="margin-left:130px; margin-bottom:20px;">
                         <h2>${description}</h2>
                         <h4> ${name}</h4>
                         <p><b>Email:</b> ${email}<br/><b>Phone:</b> ${phone}</p>
@@ -354,7 +373,7 @@ function initMap() {
     const renderer = {
     render({ count, position }) {
         return new google.maps.Marker({
-        label: { text: String(count), color: "black", fontSize: "10px" },
+        label: { text: String(count), color: "#e8d263", fontSize: "10px" },
         position,
         icon: "img/m1.png",
         // adjust zIndex to be above other markers

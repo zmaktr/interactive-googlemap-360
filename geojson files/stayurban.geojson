@@ -1,0 +1,23 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.314521789550781,52.5104866027832
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "stayurban",
+                "address": "Leibnitzstraße 3-4", 
+                "city": "Berlin", 
+                "phone": "+49 40 380224 565",
+                "email": "info@stayurban.de",
+                "assetid" : "63",
+                "website" : "stayurban.de"
+            }
+        }
+    ]
+}
