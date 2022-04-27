@@ -335,7 +335,7 @@ function initMap() {
                 position: feature.getGeometry().get(0),
                 icon: {
                     url: `img/icon_${feature.getProperty('category')}.png`,
-                    scaledSize: new google.maps.Size(60, 40),
+                    //scaledSize: new google.maps.Size(60, 40),
                 }
             });
 
@@ -350,7 +350,7 @@ function initMap() {
                 const phone = feature.getProperty('phone');
                 const position = feature.getGeometry().get();
                 const content = `
-                    <img style="float:left; align-items:center; width:120px; margin-top:0px" src="img/icon_${category}.png">
+                    <img style="float:left; align-items:center; width:120px; margin-top:0px" src="img/info_icon_${category}.png">
                     <div style="margin-left:130px; margin-bottom:20px;">
                         <h2>${description}</h2>
                         <h4> ${name}</h4>
