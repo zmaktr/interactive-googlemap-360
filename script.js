@@ -86,7 +86,7 @@ const mapStyle = [
         "elementType": "all",
         "stylers": [
             {
-                "color": "#769c7e"
+                "color": "#103738"
             },
             {
                 "visibility": "on"
