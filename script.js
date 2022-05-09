@@ -86,7 +86,7 @@ const mapStyle = [
         "elementType": "all",
         "stylers": [
             {
-                "color": "#103738"
+                "color": "#769c7e"
             },
             {
                 "visibility": "on"
@@ -373,7 +373,7 @@ function initMap() {
     const renderer = {
     render({ count, position }) {
         return new google.maps.Marker({
-        label: { text: String(count), color: "white", fontSize: "10px" },
+        label: { text: String(count), color: "#e8d263", fontSize: "10px" },
         position,
         icon: "img/m1.png",
         // adjust zIndex to be above other markers
